@@ -50,28 +50,34 @@ export const projects = [
   }
 ];
 
-// Client Testimonials
-export const testimonials = [
+// Blog Posts
+export const blogPosts = [
   {
     id: 1,
-    name: "Jessica Parker",
-    role: "Bride, Sydney",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&h=50",
-    text: "CI Makeup made me feel absolutely beautiful on my wedding day. The makeup lasted perfectly from morning until late night dancing, and photographed beautifully. Highly recommend to all future brides!"
+    title: "Bridal Makeup Tips for Your Big Day",
+    category: "Bridal",
+    date: "May 10, 2025",
+    image: "/assets/portfolio-image3.jpeg",
+    excerpt: "Discover the essential makeup tips to ensure you look flawless throughout your wedding day...",
+    slug: "bridal-makeup-tips"
   },
   {
     id: 2,
-    name: "Lara Wilson",
-    role: "Model, Fashion Week",
-    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&h=50",
-    text: "Working with CI Makeup for my runway shows has been incredible. The attention to detail and understanding of lighting and photography ensures I always look my best both in person and in photos."
+    title: "Summer Makeup Trends for 2025",
+    category: "Trends",
+    date: "May 5, 2025",
+    image: "/assets/portfolio-image1.jpeg",
+    excerpt: "This summer is all about glowing skin, minimal eye makeup, and bold lips. Let's explore the hottest trends...",
+    slug: "summer-makeup-trends-2025"
   },
   {
     id: 3,
-    name: "Mei Lin",
-    role: "Corporate Executive",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&h=50",
-    text: "I booked CI Makeup for a major presentation and was amazed at how confident I felt. The makeup was flawless, natural-looking, and lasted through my entire day of meetings. Will definitely book again!"
+    title: "How to Choose the Right Foundation for Your Skin Type",
+    category: "Tips & Tricks",
+    date: "April 28, 2025",
+    image: "/assets/portfolio-image3.jpeg",
+    excerpt: "Finding the perfect foundation can be challenging. Here's my professional guide to matching your skin type...",
+    slug: "choose-right-foundation"
   }
 ];
 
@@ -80,7 +86,7 @@ export const navLinks = [
   { name: "Home", href: "#home" },
   { name: "Services", href: "#portfolio" },
   { name: "About", href: "#about" },
-  { name: "Testimonials", href: "#testimonials" },
+  { name: "Blog", href: "#blog" },
   { name: "Book Now", href: "#contact" }
 ];
 

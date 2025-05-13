@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import Portfolio from "@/components/Portfolio";
 import About from "@/components/About";
-import Testimonials from "@/components/Testimonials";
+import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
 import { Helmet } from "react-helmet";
 
@@ -60,7 +60,7 @@ const Home = () => {
       <Hero />
       <Portfolio />
       <About />
-      <Testimonials />
+      <Blog />
       <Contact />
     </>
   );
