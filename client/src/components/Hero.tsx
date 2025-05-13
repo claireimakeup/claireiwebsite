@@ -10,7 +10,7 @@ const Hero = () => {
               Claire Imbrogno <span className="text-accent">Hair and Makeup</span> Artist
             </h1>
             <h2 className="text-secondary text-xl md:text-2xl mb-8 font-light">
-              Professional makeup services for weddings, special events, and editorial in Melbourne.
+              With over 15 years of experience working with luxury brands and editorial publications across Australia.
             </h2>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#portfolio">
