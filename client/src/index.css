@@ -121,9 +121,9 @@ html {
 }
 
 .modern-display {
-  font-family: 'Bodoni Moda', 'Playfair Display', serif;
-  letter-spacing: 0.01em;
-  font-weight: 500;
+  font-family: 'Italiana', 'Cinzel', serif;
+  letter-spacing: 0.02em;
+  font-weight: 400;
 }
 
 @layer utilities {
