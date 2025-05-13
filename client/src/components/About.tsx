@@ -33,13 +33,6 @@ const About = () => {
               About <span className="text-accent">Claire</span>
             </h2>
             
-            <h3 className="text-xl font-serif mb-4 text-accent">
-              Claire Imbrogno
-            </h3>
-            <h4 className="text-lg font-medium mb-5 text-gray-700">
-              Founder/Senior Makeup Artist
-            </h4>
-            
             <p className="text-secondary mb-5 leading-relaxed">
               Beginning with a love of painting and watercolors, Claire Imbrogno discovered her artistic vision could transform more than just paper. Her journey from delicate brushstrokes on canvas to commanding the beauty direction on high-fashion editorial shoots reveals an artist who sees faces as her ultimate medium. More than just applying makeup, Claire creates a connection with each canvas she works on, seeing the unique beauty in every client that sits in her chair.
             </p>
