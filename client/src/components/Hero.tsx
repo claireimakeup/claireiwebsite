@@ -60,7 +60,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 animate-fadeIn">
             <p className="text-secondary text-lg md:text-xl mb-8 font-light font-quicksand leading-relaxed">
-              Elevating high-fashion editorials and luxury campaigns through artistry that transforms faces into living canvases. With an exceptional eye for detail and editorial styling, Claire brings creative direction to life across Melbourne and internationally.
+              Elevating editorial beauty and luxury campaigns through artistry that transforms faces into living canvases. With an exceptional eye for detail and sophisticated styling, Claire brings creative direction to life across Melbourne and internationally.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#portfolio">
