@@ -22,15 +22,15 @@ const About = () => {
               About <span className="text-accent">Claire</span>
             </h2>
             
-            <p className="text-secondary mb-5 leading-relaxed font-dm-serif">
+            <p className="text-secondary mb-5 leading-relaxed font-cormorant italic">
               Beginning with a love of painting and watercolors, Claire Imbrogno discovered her artistic vision could transform more than just paper. Her journey from delicate brushstrokes on canvas to commanding the beauty direction on high-fashion editorial shoots reveals an artist who sees faces as her ultimate medium. More than just applying makeup, Claire creates a connection with each canvas she works on, seeing the unique beauty in every client that sits in her chair.
             </p>
             
-            <p className="text-secondary mb-5 leading-relaxed font-dm-serif">
+            <p className="text-secondary mb-5 leading-relaxed font-cormorant italic">
               With over 15 years immersed in the beauty industry, Claire has refined her craft alongside some of Australia's most prestigious brands. Working with Mecca, Laura Mercier, Cotton On, Myer, and countless photoshoots has given her the versatility to adapt to any style or brief while maintaining her signature light-handed approach that allows natural beauty to shine through.
             </p>
             
-            <p className="text-secondary mb-6 leading-relaxed font-dm-serif">
+            <p className="text-secondary mb-6 leading-relaxed font-cormorant italic">
               Claire approaches each face with the same meticulous care and creativity whether it's for a bride's special day, a magazine editorial, or a major commercial campaign. Her kit is stocked with only the highest quality products from M.A.C, Dior, NARS, Charlotte Tilbury, and Hourglass, ensuring every look is built on a foundation of luxury and longevity. Based in Melbourne but available Australia-wide, Claire brings the same dedication to creating your perfect look that has made her a trusted name in the industry.
             </p>
             
@@ -44,7 +44,7 @@ const About = () => {
                   </div>
                   <div>
                     <h4 className="font-jost font-medium">{skill.title}</h4>
-                    <p className="text-secondary text-sm font-dm-serif">{skill.description}</p>
+                    <p className="text-secondary text-sm font-cormorant italic">{skill.description}</p>
                   </div>
                 </div>
               ))}
