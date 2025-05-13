@@ -33,20 +33,23 @@ const About = () => {
               About <span className="text-accent">Claire</span>
             </h2>
             
-            <p className="text-secondary mb-4">
-              Hello! I'm Claire Imbrogno, a professional makeup artist with over 15 years of experience in the beauty industry. Throughout my career, I've had the privilege of working with prestigious brands including Mecca, Laura Mercier, Cotton On, Supre, Target, Myer, Dotti, and Factorie.
+            <h3 className="text-xl font-serif mb-4 text-accent">
+              Claire Imbrogno
+            </h3>
+            <h4 className="text-lg font-medium mb-5 text-gray-700">
+              Founder/Senior Makeup Artist
+            </h4>
+            
+            <p className="text-secondary mb-5 leading-relaxed">
+              From nimble fingers experimenting with her first makeup palette to commanding the beauty direction on high-fashion editorial shoots, Claire Imbrogno has always had an innate understanding of how to transform a face. More than just applying makeup, Claire creates a connection with each canvas she works on, seeing the unique beauty in every client that sits in her chair.
             </p>
             
-            <p className="text-secondary mb-4">
-              My extensive experience with these leading companies has equipped me with the expertise to create modern, on-trend looks efficiently and effectively. Working alongside industry leaders has refined my techniques and deepened my understanding of diverse makeup styles and applications.
+            <p className="text-secondary mb-5 leading-relaxed">
+              With over 15 years immersed in the beauty industry, Claire has refined her craft alongside some of Australia's most prestigious brands. Working with Mecca, Laura Mercier, Cotton On, Myer, and countless photoshoots has given her the versatility to adapt to any style or brief while maintaining her signature light-handed approach that allows natural beauty to shine through.
             </p>
             
-            <p className="text-secondary mb-4">
-              Enhancing natural beauty has always been my passion since the beginning of my career. I'm dedicated to meeting each client's unique needs with reliability, creativity, and a positive attitude on set. I work exclusively with premium makeup brands including M.A.C, Dior, NARS, Charlotte Tilbury, Hourglass, and many more to ensure flawless, long-lasting results.
-            </p>
-            
-            <p className="text-secondary mb-6">
-              While primarily based in Point Cook, Melbourne, I'm available for bookings throughout Victoria and across Australia. My approach focuses on enhancing your unique features while ensuring makeup that photographs beautifully and makes you feel confident for any occasion.
+            <p className="text-secondary mb-6 leading-relaxed">
+              Claire approaches each face with the same meticulous care and creativity whether it's for a bride's special day, a magazine editorial, or a major commercial campaign. Her kit is stocked with only the highest quality products from M.A.C, Dior, NARS, Charlotte Tilbury, and Hourglass, ensuring every look is built on a foundation of luxury and longevity. Based in Melbourne but available Australia-wide, Claire brings the same dedication to creating your perfect look that has made her a trusted name in the industry.
             </p>
             
             <h3 className="text-xl font-bold mb-4">My Expertise</h3>
