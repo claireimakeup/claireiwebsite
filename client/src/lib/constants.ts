@@ -185,15 +185,6 @@ export const projects = [
 // Blog Posts
 export const blogPosts = [
   {
-    id: 1,
-    title: "Bridal Makeup Tips for Your Big Day",
-    category: "Bridal",
-    date: "May 10, 2025",
-    image: "/assets/portfolio-image3.jpeg",
-    excerpt: "Discover the essential makeup tips to ensure you look flawless throughout your wedding day...",
-    slug: "bridal-makeup-tips"
-  },
-  {
     id: 2,
     title: "Summer Makeup Trends for 2025",
     category: "Trends",
