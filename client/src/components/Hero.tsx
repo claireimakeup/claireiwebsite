@@ -24,15 +24,15 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 animate-fadeIn">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 font-gilda">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight mb-6 font-bodoni">
               Claire Imbrogno <span className="text-accent">Hair and Makeup</span> Artist
             </h1>
-            <h2 className="text-secondary text-xl md:text-2xl mb-8 font-light font-cormorant">
+            <h2 className="text-secondary text-xl md:text-2xl mb-8 font-light font-rufina">
               Specializing in high-fashion editorial, e-commerce campaigns, and luxury brand photoshoots across Australia and internationally.
             </h2>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#portfolio">
-                <Button variant="default" size="default">
+                <Button variant="default" size="default" className="font-marcellus tracking-wider uppercase">
                   View Portfolio
                 </Button>
               </a>
@@ -63,8 +63,8 @@ const Hero = () => {
                 ))}
               </div>
             </div>
-            <div className="absolute -bottom-5 -right-5 bg-accent text-white p-4 rounded-full shadow-lg transform rotate-3 font-cormorant">
-              <p className="font-bold text-lg">Claire Imbrogno</p>
+            <div className="absolute -bottom-5 -right-5 bg-accent text-white p-4 px-6 rounded-full shadow-lg transform rotate-3 font-antic">
+              <p className="font-bold text-lg tracking-wider">Claire Imbrogno</p>
               <p className="text-sm">Professional Makeup Artist</p>
             </div>
           </div>

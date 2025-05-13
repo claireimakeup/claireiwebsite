@@ -122,8 +122,8 @@ html {
 
 /* Font options for main headings */
 .modern-display {
-  font-family: 'Libre Caslon Display', serif;
-  letter-spacing: 0.02em;
+  font-family: 'Bodoni Moda', serif;
+  letter-spacing: 0.03em;
   font-weight: 400;
 }
 
@@ -142,6 +142,26 @@ html {
 
 .font-myeongjo {
   font-family: 'Nanum Myeongjo', serif;
+}
+
+.font-marcellus {
+  font-family: 'Marcellus', serif;
+  letter-spacing: 0.02em;
+}
+
+.font-rufina {
+  font-family: 'Rufina', serif;
+  letter-spacing: 0.02em;
+}
+
+.font-bodoni {
+  font-family: 'Bodoni Moda', serif;
+  letter-spacing: 0.03em;
+}
+
+.font-antic {
+  font-family: 'Antic Didone', serif;
+  letter-spacing: 0.04em;
 }
 
 @layer utilities {
