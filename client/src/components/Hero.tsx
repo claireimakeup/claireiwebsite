@@ -2,15 +2,23 @@ import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
 const Hero = () => {
-  const [currentImage, setCurrentImage] = useState(1);
+  // Using only fashion/editorial images (no bridal)
+  const heroImages = [
+    { id: 1, src: "/assets/hero/hero-image1.jpg" },
+    { id: 2, src: "/assets/hero/hero-image2.jpg" },
+    { id: 3, src: "/assets/hero/hero-image3.jpg" },
+    { id: 4, src: "/assets/hero/hero-image4.jpg" }
+  ];
+  
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImage((prev) => (prev % 3) + 1);
+      setCurrentImageIndex((prev) => (prev + 1) % heroImages.length);
     }, 5000);
     
     return () => clearInterval(interval);
-  }, []);
+  }, [heroImages.length]);
   return (
     <section id="home" className="pt-24 md:pt-32 pb-16 md:pb-24">
       <div className="container mx-auto px-4">
@@ -34,23 +42,23 @@ const Hero = () => {
           <div className="md:w-1/2 relative animate-slideUp">
             <div className="relative overflow-hidden rounded-xl shadow-2xl h-[550px]">
               <img 
-                src={`/assets/hero/hero-image${currentImage}.jpg`} 
+                src={heroImages[currentImageIndex].src} 
                 alt="Professional fashion editorial makeup by Claire Imbrogno" 
                 className="w-full h-full rounded-xl object-cover transition-opacity duration-1000 ease-in-out"
-                style={{ objectPosition: currentImage === 3 ? 'top' : 'center' }}
+                style={{ objectPosition: 'center' }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
               
               {/* Image indicator dots */}
               <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
-                {[1, 2, 3].map((num) => (
+                {heroImages.map((image, index) => (
                   <button 
-                    key={num}
-                    onClick={() => setCurrentImage(num)}
+                    key={image.id}
+                    onClick={() => setCurrentImageIndex(index)}
                     className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                      currentImage === num ? 'bg-white scale-125' : 'bg-white/50'
+                      currentImageIndex === index ? 'bg-white scale-125' : 'bg-white/50'
                     }`}
-                    aria-label={`View image ${num}`}
+                    aria-label={`View image ${index + 1}`}
                   />
                 ))}
               </div>
