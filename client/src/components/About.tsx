@@ -33,12 +33,20 @@ const About = () => {
               About <span className="text-accent">Claire</span>
             </h2>
             
-            <p className="text-secondary mb-6">
-              Hello! I'm Claire Imbrogno, a professional makeup artist based in Melbourne with a passion for creating beautiful, personalized looks that enhance natural beauty. With expertise in bridal, editorial, and special occasion makeup, I work closely with each client to bring their vision to life.
+            <p className="text-secondary mb-4">
+              Hello! I'm Claire Imbrogno, a professional makeup artist with over 15 years of experience in the beauty industry. Throughout my career, I've had the privilege of working with prestigious brands including Mecca, Laura Mercier, Cotton On, Supre, Target, Myer, Dotti, and Factorie.
             </p>
             
-            <p className="text-secondary mb-8">
-              My approach focuses on enhancing your unique features while ensuring makeup that lasts, photographs beautifully, and makes you feel confident. I believe makeup should be a transformative experience that brings out your best self for any occasion.
+            <p className="text-secondary mb-4">
+              My extensive experience with these leading companies has equipped me with the expertise to create modern, on-trend looks efficiently and effectively. Working alongside industry leaders has refined my techniques and deepened my understanding of diverse makeup styles and applications.
+            </p>
+            
+            <p className="text-secondary mb-4">
+              Enhancing natural beauty has always been my passion since the beginning of my career. I'm dedicated to meeting each client's unique needs with reliability, creativity, and a positive attitude on set. I work exclusively with premium makeup brands including M.A.C, Dior, NARS, Charlotte Tilbury, Hourglass, and many more to ensure flawless, long-lasting results.
+            </p>
+            
+            <p className="text-secondary mb-6">
+              While primarily based in Point Cook, Melbourne, I'm available for bookings throughout Victoria and across Australia. My approach focuses on enhancing your unique features while ensuring makeup that photographs beautifully and makes you feel confident for any occasion.
             </p>
             
             <h3 className="text-xl font-bold mb-4">My Expertise</h3>
