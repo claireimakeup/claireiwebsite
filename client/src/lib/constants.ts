@@ -78,7 +78,7 @@ export const projects = [
     url: "#"
   },
   {
-    id: 8,
+    id: 9,
     title: "Swimwear Campaign",
     category: "campaign",
     categories: ["Campaign", "Commercial"],
@@ -89,7 +89,7 @@ export const projects = [
   
   // FASHION Category
   {
-    id: 9,
+    id: 10,
     title: "Fashion Editorial",
     category: "fashion",
     categories: ["Fashion", "Editorial"],
@@ -98,7 +98,7 @@ export const projects = [
     url: "#"
   },
   {
-    id: 10,
+    id: 11,
     title: "Runway Collection",
     category: "fashion",
     categories: ["Fashion", "Runway"],
@@ -109,21 +109,30 @@ export const projects = [
   
   // BRIDAL Category
   {
-    id: 11,
-    title: "Modern Bride",
+    id: 12,
+    title: "Bridal Party Collection",
+    category: "bridal",
+    categories: ["Bridal", "Wedding"],
+    image: "/assets/portfolio/bridal/bridal1.jpg",
+    description: "Elegant, coordinated makeup for the bride and her bridal party in soft, romantic tones.",
+    url: "#"
+  },
+  {
+    id: 13,
+    title: "Bridal Preparation",
+    category: "bridal",
+    categories: ["Bridal", "Behind the Scenes"],
+    image: "/assets/portfolio/bridal/bridal2.jpg",
+    description: "Professional makeup application for the bride on her wedding day, creating a flawless look.",
+    url: "#"
+  },
+  {
+    id: 14,
+    title: "Elegant Bride",
     category: "bridal",
     categories: ["Bridal", "Wedding"],
     image: "/assets/portfolio-image1.jpeg",
     description: "Personalized bridal looks that enhance natural beauty and last throughout the day.",
-    url: "#"
-  },
-  {
-    id: 12,
-    title: "Bridal Party",
-    category: "bridal",
-    categories: ["Bridal", "Wedding Party"],
-    image: "/assets/portfolio/image1.jpeg",
-    description: "Coordinated looks for the entire bridal party that photograph beautifully together.",
     url: "#"
   }
 ];
