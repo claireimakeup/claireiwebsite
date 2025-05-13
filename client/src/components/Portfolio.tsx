@@ -52,25 +52,12 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project) => (
             <div key={project.id} className="portfolio-item group" data-category={project.category}>
-              <div className="relative overflow-hidden rounded-xl shadow-md h-full flex flex-col">
-                <div className="overflow-hidden">
-                  <img 
-                    src={project.image} 
-                    alt={project.title} 
-                    className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
-                <div className="p-6 bg-white flex-grow flex flex-col">
-                  <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                  <div className="flex gap-2 mb-3">
-                    {project.categories.map((category, index) => (
-                      <span key={index} className="text-xs bg-gray-100 px-2 py-1 rounded-full text-gray-700">
-                        {category}
-                      </span>
-                    ))}
-                  </div>
-                  <p className="text-secondary text-sm mb-4 flex-grow">{project.description}</p>
-                </div>
+              <div className="relative overflow-hidden rounded-xl shadow-md">
+                <img 
+                  src={project.image} 
+                  alt={project.title} 
+                  className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105"
+                />
               </div>
             </div>
           ))}
