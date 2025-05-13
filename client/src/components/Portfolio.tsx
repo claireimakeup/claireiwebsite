@@ -7,11 +7,11 @@ const Portfolio = () => {
 
   const categories = [
     { id: "all", name: "All Work" },
-    { id: "editorial", name: "Editorial" },
-    { id: "commercial", name: "Commercial" },
-    { id: "runway", name: "Runway" },
-    { id: "bridal", name: "Bridal" },
-    { id: "creative", name: "Creative" }
+    { id: "beauty", name: "Beauty" },
+    { id: "ecommerce", name: "E-commerce" },
+    { id: "campaign", name: "Campaign" },
+    { id: "fashion", name: "Fashion" },
+    { id: "bridal", name: "Bridal" }
   ];
 
   const filteredProjects = activeCategory === "all" 

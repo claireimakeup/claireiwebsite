@@ -1,68 +1,88 @@
 // Makeup Portfolio
 export const projects = [
-  // EDITORIAL Category
+  // BEAUTY Category
   {
     id: 1,
-    title: "High Fashion Editorial",
-    category: "editorial",
-    categories: ["Editorial", "Fashion"],
+    title: "Natural Glow",
+    category: "beauty",
+    categories: ["Beauty", "Natural"],
     image: "/assets/portfolio/image2.jpeg",
-    description: "Fashion editorial for Rollas, focusing on classic, timeless beauty with a modern twist.",
+    description: "Enhancing natural features with a focus on radiant skin and subtle definition.",
     url: "#"
   },
   {
     id: 2,
-    title: "Magazine Cover",
-    category: "editorial",
-    categories: ["Editorial", "Magazine"],
+    title: "Editorial Beauty",
+    category: "beauty",
+    categories: ["Beauty", "Editorial"],
     image: "/assets/portfolio-image3.jpeg",
-    description: "Bold, creative looks for magazine editorials and fashion photography.",
+    description: "Bold, creative beauty looks that highlight features with artistic techniques.",
     url: "#"
   },
   
-  // COMMERCIAL Category
+  // E-COMMERCE Category
   {
     id: 3,
-    title: "Brand Campaign",
-    category: "commercial",
-    categories: ["Commercial", "Campaign"],
+    title: "Product Focus",
+    category: "ecommerce",
+    categories: ["E-commerce", "Product"],
     image: "/assets/portfolio/image1.jpeg",
-    description: "Clean, fresh beauty for commercial clients that showcases the model's natural features.",
+    description: "Clean, commercial makeup designed specifically for online retail photography.",
     url: "#"
   },
   {
     id: 4,
-    title: "Product Shoot",
-    category: "commercial",
-    categories: ["Commercial", "Product"],
+    title: "Online Catalogue",
+    category: "ecommerce",
+    categories: ["E-commerce", "Retail"],
     image: "/assets/portfolio-image1.jpeg",
-    description: "Polished makeup designed to complement product photography and brand aesthetics.",
+    description: "Polished makeup looks created to showcase clothing and accessories for online shopping.",
     url: "#"
   },
   
-  // RUNWAY Category
+  // CAMPAIGN Category
   {
     id: 5,
-    title: "Fashion Week",
-    category: "runway",
-    categories: ["Runway", "Fashion Week"],
+    title: "Brand Campaign",
+    category: "campaign",
+    categories: ["Campaign", "Commercial"],
     image: "/assets/portfolio/image3.jpeg",
-    description: "Avant-garde looks created for designers during Melbourne Fashion Week.",
+    description: "Signature looks developed for major brand marketing campaigns and advertisements.",
     url: "#"
   },
   {
     id: 6,
-    title: "Catwalk Collection",
-    category: "runway",
-    categories: ["Runway", "Designer"],
+    title: "Seasonal Campaign",
+    category: "campaign",
+    categories: ["Campaign", "Seasonal"],
     image: "/assets/portfolio-image3.jpeg",
-    description: "Bold runway looks designed to make an impact from the catwalk to photography.",
+    description: "Themed makeup concepts created for seasonal promotions and holiday campaigns.",
+    url: "#"
+  },
+  
+  // FASHION Category
+  {
+    id: 7,
+    title: "Fashion Editorial",
+    category: "fashion",
+    categories: ["Fashion", "Editorial"],
+    image: "/assets/portfolio/image2.jpeg",
+    description: "Creative expressions for high-fashion editorials and magazine spreads.",
+    url: "#"
+  },
+  {
+    id: 8,
+    title: "Runway Collection",
+    category: "fashion",
+    categories: ["Fashion", "Runway"],
+    image: "/assets/portfolio-image3.jpeg",
+    description: "Bold, avant-garde looks created for designers' runway presentations.",
     url: "#"
   },
   
   // BRIDAL Category
   {
-    id: 7,
+    id: 9,
     title: "Modern Bride",
     category: "bridal",
     categories: ["Bridal", "Wedding"],
@@ -71,32 +91,12 @@ export const projects = [
     url: "#"
   },
   {
-    id: 8,
+    id: 10,
     title: "Bridal Party",
     category: "bridal",
     categories: ["Bridal", "Wedding Party"],
     image: "/assets/portfolio/image1.jpeg",
     description: "Coordinated looks for the entire bridal party that photograph beautifully together.",
-    url: "#"
-  },
-  
-  // CREATIVE Category
-  {
-    id: 9,
-    title: "Artistic Concept",
-    category: "creative",
-    categories: ["Creative", "Artistic"],
-    image: "/assets/portfolio/image2.jpeg",
-    description: "Boundary-pushing creative concepts that showcase makeup as an artistic medium.",
-    url: "#"
-  },
-  {
-    id: 10,
-    title: "Avant-Garde",
-    category: "creative",
-    categories: ["Creative", "Experimental"],
-    image: "/assets/portfolio-image3.jpeg",
-    description: "Experimental looks that push the boundaries of traditional makeup artistry.",
     url: "#"
   }
 ];
