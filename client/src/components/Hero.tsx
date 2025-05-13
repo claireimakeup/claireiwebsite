@@ -24,10 +24,10 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 animate-fadeIn">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight mb-6 font-bodoni">
-              Claire Imbrogno <span className="text-accent">Hair and Makeup</span> Artist
+            <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight mb-6 font-great-vibes">
+              Claire Imbrogno <span className="text-accent font-pinyon">Hair and Makeup</span> Artist
             </h1>
-            <h2 className="text-secondary text-xl md:text-2xl mb-8 font-light font-rufina">
+            <h2 className="text-secondary text-xl md:text-2xl mb-8 font-light font-dancing">
               Specializing in high-fashion editorial, e-commerce campaigns, and luxury brand photoshoots across Australia and internationally.
             </h2>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -63,9 +63,9 @@ const Hero = () => {
                 ))}
               </div>
             </div>
-            <div className="absolute -bottom-5 -right-5 bg-accent text-white p-4 px-6 rounded-full shadow-lg transform rotate-3 font-antic">
+            <div className="absolute -bottom-5 -right-5 bg-accent text-white p-4 px-6 rounded-full shadow-lg transform rotate-3 font-alex-brush">
               <p className="font-bold text-lg tracking-wider">Claire Imbrogno</p>
-              <p className="text-sm">Professional Makeup Artist</p>
+              <p className="text-sm font-allura">Professional Makeup Artist</p>
             </div>
           </div>
         </div>

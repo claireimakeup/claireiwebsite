@@ -164,6 +164,43 @@ html {
   letter-spacing: 0.04em;
 }
 
+/* Cursive font options */
+.font-allura {
+  font-family: 'Allura', cursive;
+}
+
+.font-alex-brush {
+  font-family: 'Alex Brush', cursive;
+}
+
+.font-tangerine {
+  font-family: 'Tangerine', cursive;
+}
+
+.font-great-vibes {
+  font-family: 'Great Vibes', cursive;
+}
+
+.font-pinyon {
+  font-family: 'Pinyon Script', cursive;
+}
+
+.font-parisienne {
+  font-family: 'Parisienne', cursive;
+}
+
+.font-petit-formal {
+  font-family: 'Petit Formal Script', cursive;
+}
+
+.font-meddon {
+  font-family: 'Meddon', cursive;
+}
+
+.font-dancing {
+  font-family: 'Dancing Script', cursive;
+}
+
 @layer utilities {
   .animation-delay-200 {
     animation-delay: 200ms;
