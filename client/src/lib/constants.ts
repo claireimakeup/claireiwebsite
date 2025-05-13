@@ -3,26 +3,35 @@ export const projects = [
   // BEAUTY Category
   {
     id: 1,
-    title: "Natural Glow",
+    title: "Minimal Elegance",
     category: "beauty",
     categories: ["Beauty", "Natural"],
-    image: "/assets/portfolio/image2.jpeg",
+    image: "/assets/portfolio/beauty/beauty1.jpg",
     description: "Enhancing natural features with a focus on radiant skin and subtle definition.",
     url: "#"
   },
   {
     id: 2,
-    title: "Editorial Beauty",
+    title: "Pearl Highlights",
     category: "beauty",
     categories: ["Beauty", "Editorial"],
-    image: "/assets/portfolio-image3.jpeg",
-    description: "Bold, creative beauty looks that highlight features with artistic techniques.",
+    image: "/assets/portfolio/beauty/beauty2.jpg",
+    description: "Artistic eye detailing with pearl accents and luminous skin.",
+    url: "#"
+  },
+  {
+    id: 3,
+    title: "Classic Red Lip",
+    category: "beauty",
+    categories: ["Beauty", "Editorial"],
+    image: "/assets/portfolio/beauty/beauty3.jpg",
+    description: "Timeless beauty with defined eyes and a statement red lip.",
     url: "#"
   },
   
   // E-COMMERCE Category
   {
-    id: 3,
+    id: 4,
     title: "Product Focus",
     category: "ecommerce",
     categories: ["E-commerce", "Product"],
@@ -31,7 +40,7 @@ export const projects = [
     url: "#"
   },
   {
-    id: 4,
+    id: 5,
     title: "Online Catalogue",
     category: "ecommerce",
     categories: ["E-commerce", "Retail"],
@@ -42,7 +51,7 @@ export const projects = [
   
   // CAMPAIGN Category
   {
-    id: 5,
+    id: 6,
     title: "Winter Collection Campaign",
     category: "campaign",
     categories: ["Campaign", "Fashion"],
@@ -51,7 +60,7 @@ export const projects = [
     url: "#"
   },
   {
-    id: 6,
+    id: 7,
     title: "Sportswear Brand Campaign",
     category: "campaign",
     categories: ["Campaign", "Athleisure"],
@@ -60,7 +69,7 @@ export const projects = [
     url: "#"
   },
   {
-    id: 7,
+    id: 8,
     title: "Summer Resort Collection",
     category: "campaign",
     categories: ["Campaign", "Editorial"],
