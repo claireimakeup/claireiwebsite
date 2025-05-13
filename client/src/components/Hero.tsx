@@ -10,7 +10,7 @@ const Hero = () => {
               Transform With <span className="text-accent">Makeup</span> Artistry
             </h1>
             <h2 className="text-secondary text-xl md:text-2xl mb-8 font-light">
-              Professional makeup services for weddings, special events, and editorial in Sydney.
+              Professional makeup services for weddings, special events, and editorial in Melbourne.
             </h2>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#portfolio">

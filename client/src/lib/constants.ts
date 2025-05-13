@@ -122,5 +122,5 @@ export const expertise = [
 export const contactInfo = {
   email: "hello@cimakeup.com.au",
   phone: "+61 4XX XXX XXX",
-  location: "Sydney, Australia"
+  location: "Melbourne, Australia"
 };
