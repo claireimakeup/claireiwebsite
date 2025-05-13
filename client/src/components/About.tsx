@@ -23,7 +23,7 @@ const About = () => {
             </h2>
             
             <p className="text-secondary mb-5 leading-relaxed font-times-new-roman text-base">
-              Beginning with a love of painting and watercolors, Claire Imbrogno discovered her artistic vision could transform more than just paper. Her journey from delicate brushstrokes on canvas to commanding the beauty direction on high-fashion editorial shoots reveals an artist who sees faces as her ultimate medium. More than just applying makeup, Claire creates a connection with each canvas she works on, seeing the unique beauty in every client that sits in her chair.
+              Beginning with a love of painting and watercolors, Claire discovered her artistic vision could transform more than just paper. Her journey from delicate brushstrokes on canvas to commanding the beauty direction on high-fashion editorial shoots reveals an artist who sees faces as her ultimate medium. More than just applying makeup, Claire creates a connection with each canvas she works on, seeing the unique beauty in every client that sits in her chair.
             </p>
             
             <p className="text-secondary mb-5 leading-relaxed font-times-new-roman text-base">
