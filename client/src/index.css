@@ -295,6 +295,10 @@ html {
   letter-spacing: 0.01em;
 }
 
+.font-times-new-roman {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 @layer utilities {
   .animation-delay-200 {
     animation-delay: 200ms;
