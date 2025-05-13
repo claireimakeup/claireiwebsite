@@ -304,6 +304,11 @@ html {
   letter-spacing: 0.01em;
 }
 
+.font-bodoni-flf {
+  font-family: 'Bodoni FLF', serif;
+  letter-spacing: 0.01em;
+}
+
 @layer utilities {
   .animation-delay-200 {
     animation-delay: 200ms;
