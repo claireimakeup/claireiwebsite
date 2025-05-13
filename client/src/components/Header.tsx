@@ -54,11 +54,6 @@ const Header = ({ activeSection }: HeaderProps) => {
               {link.name}
             </a>
           ))}
-          <a href="#contact">
-            <Button variant="default" size="default">
-              Book Now
-            </Button>
-          </a>
         </nav>
         
         {/* Mobile Menu Button */}
@@ -98,14 +93,7 @@ const Header = ({ activeSection }: HeaderProps) => {
                 {link.name}
               </a>
             ))}
-            <a 
-              href="#contact" 
-              onClick={closeMobileMenu}
-            >
-              <Button variant="default" size="lg">
-                Book Now
-              </Button>
-            </a>
+
           </nav>
         </div>
       )}

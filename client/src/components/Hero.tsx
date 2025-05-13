@@ -15,12 +15,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#portfolio">
                 <Button variant="default" size="default">
-                  View Services
-                </Button>
-              </a>
-              <a href="#contact">
-                <Button variant="outline" size="default">
-                  Book Now
+                  View Portfolio
                 </Button>
               </a>
             </div>
