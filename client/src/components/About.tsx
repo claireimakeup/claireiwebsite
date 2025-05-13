@@ -10,9 +10,9 @@ const About = () => {
           <div className="md:w-2/5">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1511424323602-d3c1a4138056?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=750" 
+                src="/assets/claire-portrait.jpeg" 
                 alt="Claire Imbrogno - Professional Makeup Artist" 
-                className="rounded-xl shadow-lg w-full h-auto"
+                className="rounded-xl shadow-lg w-full h-auto object-cover"
               />
               <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-lg hidden md:block">
                 <div className="flex items-center gap-3">

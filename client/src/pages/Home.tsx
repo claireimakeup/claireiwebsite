@@ -35,7 +35,7 @@ const Home = () => {
               "@type": "Person",
               "name": "Claire Imbrogno",
               "url": "https://www.cimakeup.com.au",
-              "image": "https://images.unsplash.com/photo-1511424323602-d3c1a4138056?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=750",
+              "image": "/assets/claire-portrait.jpeg",
               "jobTitle": "Professional Makeup Artist",
               "worksFor": {
                 "@type": "Organization",
