@@ -106,11 +106,11 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row gap-12">
           <div className="md:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 font-serif">
-              Book Your <span className="text-accent">Appointment</span>
+              Contact <span className="text-accent">Me</span>
             </h2>
             
             <p className="text-secondary mb-8">
-              Ready to book a makeup service or have questions? Fill out the form and I'll get back to you within 24 hours. Looking forward to helping you look your best for your special occasion!
+              Have questions about my makeup services? Fill out the form and I'll get back to you within 24 hours. Looking forward to discussing how I can help with your makeup needs!
             </p>
             
             <div className="space-y-6 mb-8">
@@ -182,7 +182,7 @@ const Contact = () => {
                     id="name" 
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="John Smith" 
+                    placeholder="Jane Smith" 
                     className="px-4 py-3"
                     required
                   />
@@ -195,7 +195,7 @@ const Contact = () => {
                     type="email" 
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="john@example.com" 
+                    placeholder="jane@example.com" 
                     className="px-4 py-3"
                     required
                   />
@@ -208,7 +208,7 @@ const Contact = () => {
                   id="subject" 
                   value={formData.subject}
                   onChange={handleChange}
-                  placeholder="Project Inquiry" 
+                  placeholder="Service Inquiry" 
                   className="px-4 py-3"
                   required
                 />
@@ -221,7 +221,7 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   rows={5} 
-                  placeholder="Tell me about your project..." 
+                  placeholder="Tell me about your makeup needs or any questions you have about my services." 
                   className="px-4 py-3 resize-none"
                   required
                 />

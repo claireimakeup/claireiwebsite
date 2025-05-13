@@ -9,23 +9,23 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Creative Portfolio | John Doe</title>
-        <meta name="description" content="Professional creative portfolio showcasing design, photography, and artistic projects by John Doe." />
-        <meta name="keywords" content="creative portfolio, design, photography, art, John Doe" />
-        <meta name="author" content="John Doe" />
+        <title>Claire Imbrogno | Professional Makeup Artist Sydney</title>
+        <meta name="description" content="Professional makeup artist in Sydney specializing in bridal, editorial, and special occasion makeup. Book your transformation with Claire Imbrogno today." />
+        <meta name="keywords" content="makeup artist, Sydney, bridal makeup, professional makeup, Claire Imbrogno, CI Makeup, beauty" />
+        <meta name="author" content="Claire Imbrogno" />
         
         {/* Open Graph / Social Media Meta Tags */}
-        <meta property="og:title" content="John Doe | Creative Portfolio" />
-        <meta property="og:description" content="Professional creative portfolio showcasing design, photography, and artistic projects." />
+        <meta property="og:title" content="Claire Imbrogno | Professional Makeup Artist Sydney" />
+        <meta property="og:description" content="Professional makeup artist in Sydney specializing in bridal, editorial, and special occasion makeup by Claire Imbrogno." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.johndoe.com" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630" />
+        <meta property="og:url" content="https://www.cimakeup.com.au" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="John Doe | Creative Portfolio" />
-        <meta name="twitter:description" content="Professional creative portfolio showcasing design, photography, and artistic projects." />
-        <meta name="twitter:image" content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630" />
+        <meta name="twitter:title" content="Claire Imbrogno | Professional Makeup Artist Sydney" />
+        <meta name="twitter:description" content="Professional makeup artist in Sydney specializing in bridal, editorial, and special occasion makeup." />
+        <meta name="twitter:image" content="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630" />
         
         {/* Structured data (JSON-LD) for SEO */}
         <script type="application/ld+json">
@@ -33,20 +33,25 @@ const Home = () => {
             {
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "John Doe",
-              "url": "https://www.johndoe.com",
-              "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=750",
-              "jobTitle": "Creative Professional",
+              "name": "Claire Imbrogno",
+              "url": "https://www.cimakeup.com.au",
+              "image": "https://images.unsplash.com/photo-1511424323602-d3c1a4138056?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=750",
+              "jobTitle": "Professional Makeup Artist",
               "worksFor": {
                 "@type": "Organization",
-                "name": "Freelance"
+                "name": "CI Makeup"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Sydney",
+                "addressRegion": "NSW",
+                "addressCountry": "Australia"
               },
               "sameAs": [
-                "https://www.instagram.com/johndoe",
-                "https://www.linkedin.com/in/johndoe",
-                "https://twitter.com/johndoe",
-                "https://dribbble.com/johndoe",
-                "https://www.behance.net/johndoe"
+                "https://instagram.com/cimakeup.au",
+                "https://facebook.com/cimakeup",
+                "https://pinterest.com/cimakeup",
+                "https://tiktok.com/@cimakeup"
               ]
             }
           `}
