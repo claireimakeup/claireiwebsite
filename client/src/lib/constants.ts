@@ -171,7 +171,7 @@ export const expertise = [
 
 // Contact information
 export const contactInfo = {
-  email: "hello@cimakeup.com.au",
+  email: "claireimbrognomakeup@gmail.com",
   phone: "+61 4XX XXX XXX",
   location: "Melbourne, Australia"
 };
