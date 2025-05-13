@@ -1,6 +1,16 @@
 import { Button } from "@/components/ui/button";
+import { useState, useEffect } from "react";
 
 const Hero = () => {
+  const [currentImage, setCurrentImage] = useState(1);
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev % 3) + 1);
+    }, 5000);
+    
+    return () => clearInterval(interval);
+  }, []);
   return (
     <section id="home" className="pt-24 md:pt-32 pb-16 md:pb-24">
       <div className="container mx-auto px-4">
@@ -22,13 +32,28 @@ const Hero = () => {
           </div>
           
           <div className="md:w-1/2 relative animate-slideUp">
-            <div className="relative overflow-hidden rounded-xl shadow-2xl">
+            <div className="relative overflow-hidden rounded-xl shadow-2xl h-[550px]">
               <img 
-                src="/assets/portfolio-image3.jpeg" 
-                alt="Makeup artist working with client" 
-                className="w-full h-auto rounded-xl"
+                src={`/assets/hero/hero-image${currentImage}.jpg`} 
+                alt="Professional fashion editorial makeup by Claire Imbrogno" 
+                className="w-full h-full rounded-xl object-cover transition-opacity duration-1000 ease-in-out"
+                style={{ objectPosition: currentImage === 3 ? 'top' : 'center' }}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+              
+              {/* Image indicator dots */}
+              <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                {[1, 2, 3].map((num) => (
+                  <button 
+                    key={num}
+                    onClick={() => setCurrentImage(num)}
+                    className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                      currentImage === num ? 'bg-white scale-125' : 'bg-white/50'
+                    }`}
+                    aria-label={`View image ${num}`}
+                  />
+                ))}
+              </div>
             </div>
             <div className="absolute -bottom-5 -right-5 bg-accent text-white p-4 rounded-lg shadow-lg">
               <p className="font-bold">Claire Imbrogno</p>
