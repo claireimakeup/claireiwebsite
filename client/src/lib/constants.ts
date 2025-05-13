@@ -1,8 +1,9 @@
 // Makeup Portfolio
 export const projects = [
+  // EDITORIAL Category
   {
     id: 1,
-    title: "Editorial Beauty",
+    title: "High Fashion Editorial",
     category: "editorial",
     categories: ["Editorial", "Fashion"],
     image: "/assets/portfolio/image2.jpeg",
@@ -11,15 +12,37 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Commercial Campaign",
+    title: "Magazine Cover",
+    category: "editorial",
+    categories: ["Editorial", "Magazine"],
+    image: "/assets/portfolio-image3.jpeg",
+    description: "Bold, creative looks for magazine editorials and fashion photography.",
+    url: "#"
+  },
+  
+  // COMMERCIAL Category
+  {
+    id: 3,
+    title: "Brand Campaign",
     category: "commercial",
-    categories: ["Commercial", "Fashion"],
+    categories: ["Commercial", "Campaign"],
     image: "/assets/portfolio/image1.jpeg",
     description: "Clean, fresh beauty for commercial clients that showcases the model's natural features.",
     url: "#"
   },
   {
-    id: 3,
+    id: 4,
+    title: "Product Shoot",
+    category: "commercial",
+    categories: ["Commercial", "Product"],
+    image: "/assets/portfolio-image1.jpeg",
+    description: "Polished makeup designed to complement product photography and brand aesthetics.",
+    url: "#"
+  },
+  
+  // RUNWAY Category
+  {
+    id: 5,
     title: "Fashion Week",
     category: "runway",
     categories: ["Runway", "Fashion Week"],
@@ -28,8 +51,19 @@ export const projects = [
     url: "#"
   },
   {
-    id: 4,
-    title: "Bridal Makeup",
+    id: 6,
+    title: "Catwalk Collection",
+    category: "runway",
+    categories: ["Runway", "Designer"],
+    image: "/assets/portfolio-image3.jpeg",
+    description: "Bold runway looks designed to make an impact from the catwalk to photography.",
+    url: "#"
+  },
+  
+  // BRIDAL Category
+  {
+    id: 7,
+    title: "Modern Bride",
     category: "bridal",
     categories: ["Bridal", "Wedding"],
     image: "/assets/portfolio-image1.jpeg",
@@ -37,21 +71,32 @@ export const projects = [
     url: "#"
   },
   {
-    id: 5,
-    title: "Editorial Beauty",
-    category: "editorial",
-    categories: ["Editorial", "Magazine"],
-    image: "/assets/portfolio-image3.jpeg",
-    description: "Bold, creative looks for magazine editorials and fashion photography.",
+    id: 8,
+    title: "Bridal Party",
+    category: "bridal",
+    categories: ["Bridal", "Wedding Party"],
+    image: "/assets/portfolio/image1.jpeg",
+    description: "Coordinated looks for the entire bridal party that photograph beautifully together.",
+    url: "#"
+  },
+  
+  // CREATIVE Category
+  {
+    id: 9,
+    title: "Artistic Concept",
+    category: "creative",
+    categories: ["Creative", "Artistic"],
+    image: "/assets/portfolio/image2.jpeg",
+    description: "Boundary-pushing creative concepts that showcase makeup as an artistic medium.",
     url: "#"
   },
   {
-    id: 6,
-    title: "Natural Daytime",
-    category: "natural",
-    categories: ["Natural", "Everyday"],
-    image: "/assets/portfolio-image1.jpeg",
-    description: "Effortless, everyday makeup that enhances features with a 'no-makeup' makeup look.",
+    id: 10,
+    title: "Avant-Garde",
+    category: "creative",
+    categories: ["Creative", "Experimental"],
+    image: "/assets/portfolio-image3.jpeg",
+    description: "Experimental looks that push the boundaries of traditional makeup artistry.",
     url: "#"
   }
 ];

@@ -11,7 +11,7 @@ const Portfolio = () => {
     { id: "commercial", name: "Commercial" },
     { id: "runway", name: "Runway" },
     { id: "bridal", name: "Bridal" },
-    { id: "natural", name: "Natural" }
+    { id: "creative", name: "Creative" }
   ];
 
   const filteredProjects = activeCategory === "all" 
