@@ -2,50 +2,56 @@
 export const projects = [
   {
     id: 1,
-    title: "Bridal Makeup",
-    category: "bridal",
-    categories: ["Bridal", "Wedding"],
-    image: "/assets/portfolio-image1.jpeg",
+    title: "Editorial Beauty",
+    category: "editorial",
+    categories: ["Editorial", "Fashion"],
+    image: "/assets/portfolio/image2.jpeg",
+    description: "Fashion editorial for Rollas, focusing on classic, timeless beauty with a modern twist.",
     url: "#"
   },
   {
     id: 2,
-    title: "Evening Glam",
-    category: "evening",
-    categories: ["Evening", "Glamour"],
-    image: "/assets/portfolio-image3.jpeg",
+    title: "Commercial Campaign",
+    category: "commercial",
+    categories: ["Commercial", "Fashion"],
+    image: "/assets/portfolio/image1.jpeg",
+    description: "Clean, fresh beauty for commercial clients that showcases the model's natural features.",
     url: "#"
   },
   {
     id: 3,
-    title: "Natural Daytime Look",
-    category: "natural",
-    categories: ["Natural", "Daytime"],
-    image: "/assets/portfolio-image1.jpeg",
+    title: "Fashion Week",
+    category: "runway",
+    categories: ["Runway", "Fashion Week"],
+    image: "/assets/portfolio/image3.jpeg",
+    description: "Avant-garde looks created for designers during Melbourne Fashion Week.",
     url: "#"
   },
   {
     id: 4,
-    title: "Editorial Beauty",
-    category: "editorial",
-    categories: ["Editorial", "Photoshoot"],
-    image: "/assets/portfolio-image3.jpeg",
+    title: "Bridal Makeup",
+    category: "bridal",
+    categories: ["Bridal", "Wedding"],
+    image: "/assets/portfolio-image1.jpeg",
+    description: "Personalized bridal looks that enhance natural beauty and last throughout the day.",
     url: "#"
   },
   {
     id: 5,
-    title: "Special Occasion",
-    category: "special",
-    categories: ["Special Events", "Formal"],
-    image: "/assets/portfolio-image1.jpeg",
+    title: "Editorial Beauty",
+    category: "editorial",
+    categories: ["Editorial", "Magazine"],
+    image: "/assets/portfolio-image3.jpeg",
+    description: "Bold, creative looks for magazine editorials and fashion photography.",
     url: "#"
   },
   {
     id: 6,
-    title: "Runway Makeup",
-    category: "runway",
-    categories: ["Fashion", "Runway"],
-    image: "/assets/portfolio-image3.jpeg",
+    title: "Natural Daytime",
+    category: "natural",
+    categories: ["Natural", "Everyday"],
+    image: "/assets/portfolio-image1.jpeg",
+    description: "Effortless, everyday makeup that enhances features with a 'no-makeup' makeup look.",
     url: "#"
   }
 ];
