@@ -10,7 +10,7 @@ const About = () => {
           <div className="md:w-2/5">
             <div className="relative">
               <img 
-                src="/assets/claire-portrait.jpeg" 
+                src="/assets/about-image.jpeg" 
                 alt="Claire Imbrogno - Professional Makeup Artist" 
                 className="rounded-xl shadow-lg w-full h-auto object-cover"
               />

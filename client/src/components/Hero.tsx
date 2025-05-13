@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="md:w-1/2 relative animate-slideUp">
             <div className="relative overflow-hidden rounded-xl shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1594122230689-45899d9e6f69?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&h=800" 
+                src="/assets/portfolio-image3.jpeg" 
                 alt="Makeup artist working with client" 
                 className="w-full h-auto rounded-xl"
               />
