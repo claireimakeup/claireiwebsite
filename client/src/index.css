@@ -232,6 +232,28 @@ html {
   letter-spacing: 0.02em;
 }
 
+/* Inspired by vanessabarney.com.au */
+.font-quicksand {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.font-tenor {
+  font-family: 'Tenor Sans', sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.font-julius {
+  font-family: 'Julius Sans One', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.font-josefin {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.02em;
+}
+
 @layer utilities {
   .animation-delay-200 {
     animation-delay: 200ms;
@@ -264,9 +286,9 @@ html {
   position: relative;
 }
 
-/* Rounded elegant shape */
+/* Clean rectangular shape - inspired by vanessabarney.com.au */
 .clip-path-angle {
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  border-radius: 0;
 }
 
 /* Option 2: Diamond shape */
