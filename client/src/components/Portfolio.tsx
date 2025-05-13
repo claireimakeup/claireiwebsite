@@ -3,10 +3,9 @@ import { Button } from "@/components/ui/button";
 import { projects } from "@/lib/constants";
 
 const Portfolio = () => {
-  const [activeCategory, setActiveCategory] = useState("all");
+  const [activeCategory, setActiveCategory] = useState("beauty");
 
   const categories = [
-    { id: "all", name: "View All" },
     { id: "beauty", name: "Beauty" },
     { id: "ecommerce", name: "E-commerce" },
     { id: "campaign", name: "Campaign" },
@@ -14,9 +13,7 @@ const Portfolio = () => {
     { id: "bridal", name: "Bridal" }
   ];
 
-  const filteredProjects = activeCategory === "all" 
-    ? projects 
-    : projects.filter(project => project.category === activeCategory);
+  const filteredProjects = projects.filter(project => project.category === activeCategory);
 
   return (
     <section id="portfolio" className="py-16 md:py-24 bg-gray-50">
