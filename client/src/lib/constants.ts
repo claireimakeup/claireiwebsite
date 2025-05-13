@@ -86,24 +86,51 @@ export const projects = [
     description: "Radiant, bronzed skin and glossy highlights for this vibrant swimwear brand campaign.",
     url: "#"
   },
+  {
+    id: 15,
+    title: "Photo Booth Campaign",
+    category: "campaign",
+    categories: ["Campaign", "Lifestyle"],
+    image: "/assets/portfolio/campaign/campaign5.jpg",
+    description: "Fresh, youthful makeup for this playful friend-focused lifestyle campaign.",
+    url: "#"
+  },
+  {
+    id: 16,
+    title: "Denim Collection",
+    category: "campaign",
+    categories: ["Campaign", "Fashion"],
+    image: "/assets/portfolio/campaign/campaign6.jpg",
+    description: "Clean, minimal makeup that highlights natural beauty for this denim fashion campaign.",
+    url: "#"
+  },
+  {
+    id: 17,
+    title: "Country Lifestyle",
+    category: "campaign",
+    categories: ["Campaign", "Outdoor"],
+    image: "/assets/portfolio/campaign/campaign7.jpg",
+    description: "Sun-kissed, natural beauty look for this outdoor country-inspired campaign.",
+    url: "#"
+  },
   
-  // FASHION Category
+  // EVENTS Category
   {
     id: 10,
-    title: "Fashion Editorial",
+    title: "Special Events",
     category: "fashion",
-    categories: ["Fashion", "Editorial"],
+    categories: ["Events", "Special Occasion"],
     image: "/assets/portfolio/image2.jpeg",
-    description: "Creative expressions for high-fashion editorials and magazine spreads.",
+    description: "Glamorous makeup for galas, premieres, and special occasions.",
     url: "#"
   },
   {
     id: 11,
-    title: "Runway Collection",
+    title: "Red Carpet",
     category: "fashion",
-    categories: ["Fashion", "Runway"],
+    categories: ["Events", "Red Carpet"],
     image: "/assets/portfolio-image3.jpeg",
-    description: "Bold, avant-garde looks created for designers' runway presentations.",
+    description: "Sophisticated looks for award nights and high-profile events.",
     url: "#"
   },
   

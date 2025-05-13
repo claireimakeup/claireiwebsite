@@ -10,7 +10,7 @@ const Portfolio = () => {
     { id: "beauty", name: "Beauty" },
     { id: "ecommerce", name: "E-commerce" },
     { id: "campaign", name: "Campaign" },
-    { id: "fashion", name: "Fashion" },
+    { id: "fashion", name: "Events" },
     { id: "bridal", name: "Bridal" }
   ];
 
