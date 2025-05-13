@@ -5,7 +5,7 @@ export const projects = [
     title: "Bridal Makeup",
     category: "bridal",
     categories: ["Bridal", "Wedding"],
-    image: "https://images.unsplash.com/photo-1576618138025-9e3693f15423?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    image: "/assets/portfolio-image1.jpeg",
     url: "#"
   },
   {
@@ -13,7 +13,7 @@ export const projects = [
     title: "Evening Glam",
     category: "evening",
     categories: ["Evening", "Glamour"],
-    image: "https://images.unsplash.com/photo-1522528556784-811b22953da5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    image: "/assets/portfolio-image3.jpeg",
     url: "#"
   },
   {
@@ -21,7 +21,7 @@ export const projects = [
     title: "Natural Daytime Look",
     category: "natural",
     categories: ["Natural", "Daytime"],
-    image: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    image: "/assets/portfolio-image1.jpeg",
     url: "#"
   },
   {
@@ -29,7 +29,7 @@ export const projects = [
     title: "Editorial Beauty",
     category: "editorial",
     categories: ["Editorial", "Photoshoot"],
-    image: "https://images.unsplash.com/photo-1619799798574-d8a5e93a4858?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    image: "/assets/portfolio-image3.jpeg",
     url: "#"
   },
   {
@@ -37,7 +37,7 @@ export const projects = [
     title: "Special Occasion",
     category: "special",
     categories: ["Special Events", "Formal"],
-    image: "https://images.unsplash.com/photo-1526995410062-b9e684e28d9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    image: "/assets/portfolio-image1.jpeg",
     url: "#"
   },
   {
@@ -45,7 +45,7 @@ export const projects = [
     title: "Runway Makeup",
     category: "runway",
     categories: ["Fashion", "Runway"],
-    image: "https://images.unsplash.com/photo-1470655318055-8509e5c5fbb2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    image: "/assets/portfolio-image3.jpeg",
     url: "#"
   }
 ];
