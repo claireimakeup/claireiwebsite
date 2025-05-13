@@ -216,10 +216,11 @@ export const blogPosts = [
 // Navigation links
 export const navLinks = [
   { name: "Home", href: "#home" },
-  { name: "Portfolio", href: "#portfolio" },
   { name: "About", href: "#about" },
+  { name: "Portfolio", href: "#portfolio" },
+  { name: "Client Stories", href: "#testimonials" },
   { name: "Blog", href: "#blog" },
-  { name: "Book Now", href: "#contact" }
+  { name: "Contact", href: "#contact" }
 ];
 
 // Social links
