@@ -254,6 +254,47 @@ html {
   letter-spacing: 0.02em;
 }
 
+/* New elegant fonts */
+.font-lora {
+  font-family: 'Lora', serif;
+  letter-spacing: 0.01em;
+}
+
+.font-poiret {
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 0.05em;
+}
+
+.font-red-hat {
+  font-family: 'Red Hat Display', sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.font-jost {
+  font-family: 'Jost', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.font-libre-baskerville {
+  font-family: 'Libre Baskerville', serif;
+  letter-spacing: 0.01em;
+}
+
+.font-prata {
+  font-family: 'Prata', serif;
+  letter-spacing: 0.02em;
+}
+
+.font-dm-serif {
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: 0.01em;
+}
+
+.font-crimson {
+  font-family: 'Crimson Text', serif;
+  letter-spacing: 0.01em;
+}
+
 @layer utilities {
   .animation-delay-200 {
     animation-delay: 200ms;

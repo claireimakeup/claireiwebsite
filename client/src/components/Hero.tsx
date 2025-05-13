@@ -24,11 +24,11 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         {/* Inspired by vanessabarney.com.au with full-width name first */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight mb-3 font-tenor tracking-widest">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight mb-3 font-prata tracking-wide">
             CLAIRE IMBROGNO
           </h1>
           <div className="w-20 h-0.5 bg-accent mx-auto my-4"></div>
-          <h2 className="text-xl md:text-2xl font-light font-raleway uppercase tracking-widest">
+          <h2 className="text-xl md:text-2xl font-light font-jost uppercase tracking-wider">
             Hair and Makeup Artist
           </h2>
           <div className="flex justify-center mt-3 space-x-4">
@@ -59,12 +59,12 @@ const Hero = () => {
         
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 animate-fadeIn">
-            <p className="text-secondary text-lg md:text-xl mb-8 font-light font-cardo leading-relaxed italic">
+            <p className="text-secondary text-lg md:text-xl mb-8 font-light font-libre-baskerville leading-relaxed">
               Elevating editorial beauty and luxury campaigns through artistry that transforms faces into living canvases. With an exceptional eye for detail and sophisticated styling, Claire brings creative direction to life across Melbourne and internationally.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#portfolio">
-                <Button variant="default" size="default" className="font-tenor tracking-wider uppercase text-sm">
+                <Button variant="default" size="default" className="font-poiret tracking-wider uppercase text-sm">
                   View Portfolio
                 </Button>
               </a>
