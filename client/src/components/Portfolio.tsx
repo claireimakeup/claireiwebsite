@@ -6,11 +6,12 @@ const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const categories = [
-    { id: "all", name: "All Services" },
+    { id: "all", name: "All Work" },
+    { id: "editorial", name: "Editorial" },
+    { id: "commercial", name: "Commercial" },
+    { id: "runway", name: "Runway" },
     { id: "bridal", name: "Bridal" },
-    { id: "evening", name: "Evening" },
-    { id: "natural", name: "Natural" },
-    { id: "editorial", name: "Editorial" }
+    { id: "natural", name: "Natural" }
   ];
 
   const filteredProjects = activeCategory === "all" 
@@ -25,11 +26,11 @@ const Portfolio = () => {
             My <span className="text-accent">Portfolio</span>
           </h2>
           <p className="text-secondary max-w-2xl mx-auto">
-            Professional makeup artistry for every occasion, customized to enhance your natural beauty.
+            A decade and a half of creating beauty across fashion, editorial, bridal, and commercial artistry.
           </p>
         </div>
 
-        {/* Services Filter */}
+        {/* Portfolio Filter */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {categories.map((category) => (
             <Button
@@ -47,26 +48,33 @@ const Portfolio = () => {
           ))}
         </div>
 
-        {/* Services Grid */}
+        {/* Portfolio Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project) => (
             <div key={project.id} className="portfolio-item group" data-category={project.category}>
-              <div className="relative overflow-hidden rounded-xl shadow-md">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
-                  className="w-full h-64 object-cover"
-                />
-                <div className="absolute inset-0 bg-primary/70 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <div className="text-center p-4">
-                    <h3 className="text-white text-xl font-bold">{project.title}</h3>
-                    <p className="text-gray-300 mt-2">{project.categories.join(", ")}</p>
-                    <a href="#contact">
-                      <Button variant="default" className="mt-4">
-                        Book This Service
-                      </Button>
-                    </a>
+              <div className="relative overflow-hidden rounded-xl shadow-md h-full flex flex-col">
+                <div className="overflow-hidden">
+                  <img 
+                    src={project.image} 
+                    alt={project.title} 
+                    className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-6 bg-white flex-grow flex flex-col">
+                  <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                  <div className="flex gap-2 mb-3">
+                    {project.categories.map((category, index) => (
+                      <span key={index} className="text-xs bg-gray-100 px-2 py-1 rounded-full text-gray-700">
+                        {category}
+                      </span>
+                    ))}
                   </div>
+                  <p className="text-secondary text-sm mb-4 flex-grow">{project.description}</p>
+                  <a href="#contact">
+                    <Button variant="outline" className="w-full border-accent text-accent hover:bg-accent hover:text-white mt-auto">
+                      Book This Style
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -75,7 +83,7 @@ const Portfolio = () => {
         
         <div className="text-center mt-12">
           <a href="#contact">
-            <Button variant="outline" className="border-accent text-accent hover:bg-accent hover:text-white">
+            <Button variant="default" className="bg-accent text-white hover:bg-accent/90">
               Book Your Session
             </Button>
           </a>
