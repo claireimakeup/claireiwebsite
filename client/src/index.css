@@ -299,6 +299,11 @@ html {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.font-magnolia-script {
+  font-family: 'Magnolia Script', cursive;
+  letter-spacing: 0.01em;
+}
+
 @layer utilities {
   .animation-delay-200 {
     animation-delay: 200ms;
