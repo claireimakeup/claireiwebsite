@@ -34,7 +34,7 @@ const About = () => {
             </h2>
             
             <p className="text-secondary mb-6">
-              Hello! I'm Claire Imbrogno, a professional makeup artist based in Sydney with a passion for creating beautiful, personalized looks that enhance natural beauty. With expertise in bridal, editorial, and special occasion makeup, I work closely with each client to bring their vision to life.
+              Hello! I'm Claire Imbrogno, a professional makeup artist based in Melbourne with a passion for creating beautiful, personalized looks that enhance natural beauty. With expertise in bridal, editorial, and special occasion makeup, I work closely with each client to bring their vision to life.
             </p>
             
             <p className="text-secondary mb-8">
