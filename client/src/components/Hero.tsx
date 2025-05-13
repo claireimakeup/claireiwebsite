@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         {/* Inspired by vanessabarney.com.au with full-width name first */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight mb-3 font-prata tracking-wide">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight mb-3 font-tenor tracking-widest">
             CLAIRE IMBROGNO
           </h1>
           <div className="w-20 h-0.5 bg-accent mx-auto my-4"></div>
