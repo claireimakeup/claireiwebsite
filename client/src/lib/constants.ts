@@ -256,3 +256,31 @@ export const contactInfo = {
   phone: "+61 4XX XXX XXX",
   location: "Melbourne, Australia"
 };
+
+// Client Testimonials and Stories
+export const testimonials = [
+  {
+    id: 1,
+    name: "Sarah Williams",
+    event: "Bridal Client, March 2025",
+    image: "/assets/portfolio/bridal/bridal1.jpg",
+    quote: "Claire has a unique talent for understanding exactly what look will complement your features and the occasion. She made me feel like the most beautiful version of myself.",
+    story: "Working with Claire for my wedding was a highlight of my bridal preparations. She took the time to understand not just my desired look, but the entire aesthetic of the wedding. The makeup lasted beautifully through tears, dancing, and countless photos!"
+  },
+  {
+    id: 2,
+    name: "Emma Johnson",
+    event: "Fashion Week Campaign",
+    image: "/assets/portfolio/campaign/campaign1.jpg",
+    quote: "As a model, I've worked with many makeup artists, but Claire's attention to detail and ability to create flawless skin is truly exceptional.",
+    story: "During our winter collection photoshoot, Claire created a look that perfectly balanced the cozy, warm aesthetic of the collection while ensuring my features would photograph beautifully in the natural lighting. Her technical skill with highlighting and contouring elevated the entire campaign."
+  },
+  {
+    id: 3,
+    name: "Jessica Chen",
+    event: "Red Carpet Event",
+    image: "/assets/portfolio/events/event1.png",
+    quote: "Claire understands how to create makeup that looks stunning both in person and on camera. Her work gave me so much confidence walking the red carpet.",
+    story: "For my first major awards ceremony, I was incredibly nervous. Claire not only created a look that perfectly complemented my dress and the formal setting, but she also made the getting-ready experience calming and enjoyable. The makeup photographed beautifully and lasted throughout the entire evening."
+  }
+];
