@@ -40,8 +40,7 @@ const Header = ({ activeSection }: HeaderProps) => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <a href="#home" className="text-2xl font-bold flex items-center">
-          <span className="text-primary font-serif">CI</span>
-          <span className="text-accent font-serif">Makeup</span>
+          <span className="text-primary modern-display">Claire</span>
         </a>
         
         {/* Desktop Navigation */}
