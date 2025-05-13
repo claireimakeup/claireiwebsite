@@ -75,14 +75,6 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
-        
-        <div className="text-center mt-12">
-          <a href="#contact">
-            <Button variant="default" className="bg-accent text-white hover:bg-accent/90">
-              Book Your Session
-            </Button>
-          </a>
-        </div>
       </div>
     </section>
   );
