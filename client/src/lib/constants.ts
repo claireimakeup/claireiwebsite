@@ -117,6 +117,24 @@ export const projects = [
   // EVENTS Category
   {
     id: 10,
+    title: "Red Carpet Gala",
+    category: "fashion",
+    categories: ["Events", "Red Carpet"],
+    image: "/assets/portfolio/events/event1.png",
+    description: "Elegant, glamorous makeup for this formal red carpet appearance.",
+    url: "#"
+  },
+  {
+    id: 11,
+    title: "Black Tie Event",
+    category: "fashion",
+    categories: ["Events", "Formal"],
+    image: "/assets/portfolio/events/event2.jpg",
+    description: "Sophisticated, classic makeup for this black and white formal gown event.",
+    url: "#"
+  },
+  {
+    id: 18,
     title: "Special Events",
     category: "fashion",
     categories: ["Events", "Special Occasion"],
@@ -125,7 +143,7 @@ export const projects = [
     url: "#"
   },
   {
-    id: 11,
+    id: 19,
     title: "Red Carpet",
     category: "fashion",
     categories: ["Events", "Red Carpet"],
