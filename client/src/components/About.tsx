@@ -41,7 +41,7 @@ const About = () => {
             </h4>
             
             <p className="text-secondary mb-5 leading-relaxed">
-              From nimble fingers experimenting with her first makeup palette to commanding the beauty direction on high-fashion editorial shoots, Claire Imbrogno has always had an innate understanding of how to transform a face. More than just applying makeup, Claire creates a connection with each canvas she works on, seeing the unique beauty in every client that sits in her chair.
+              Beginning with a love of painting and watercolors, Claire Imbrogno discovered her artistic vision could transform more than just paper. Her journey from delicate brushstrokes on canvas to commanding the beauty direction on high-fashion editorial shoots reveals an artist who sees faces as her ultimate medium. More than just applying makeup, Claire creates a connection with each canvas she works on, seeing the unique beauty in every client that sits in her chair.
             </p>
             
             <p className="text-secondary mb-5 leading-relaxed">
