@@ -6,7 +6,7 @@ const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const categories = [
-    { id: "all", name: "All Work" },
+    { id: "all", name: "View All" },
     { id: "beauty", name: "Beauty" },
     { id: "ecommerce", name: "E-commerce" },
     { id: "campaign", name: "Campaign" },
