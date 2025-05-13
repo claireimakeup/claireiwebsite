@@ -6,8 +6,8 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 animate-fadeIn">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 font-serif">
-              Transform With <span className="text-accent">Makeup</span> Artistry
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 modern-display">
+              Claire Imbrogno <span className="text-accent">Hair and Makeup</span> Artist
             </h1>
             <h2 className="text-secondary text-xl md:text-2xl mb-8 font-light">
               Professional makeup services for weddings, special events, and editorial in Melbourne.
