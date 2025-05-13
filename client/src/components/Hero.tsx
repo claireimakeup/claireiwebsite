@@ -24,10 +24,10 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 animate-fadeIn">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 modern-display">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 font-gilda">
               Claire Imbrogno <span className="text-accent">Hair and Makeup</span> Artist
             </h1>
-            <h2 className="text-secondary text-xl md:text-2xl mb-8 font-light">
+            <h2 className="text-secondary text-xl md:text-2xl mb-8 font-light font-cormorant">
               Specializing in high-fashion editorial, e-commerce campaigns, and luxury brand photoshoots across Australia and internationally.
             </h2>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -40,11 +40,11 @@ const Hero = () => {
           </div>
           
           <div className="md:w-1/2 relative animate-slideUp">
-            <div className="relative overflow-hidden rounded-xl shadow-2xl h-[550px]">
+            <div className="relative overflow-hidden hero-image-container shadow-2xl h-[550px] clip-path-angle">
               <img 
                 src={heroImages[currentImageIndex].src} 
                 alt="Professional fashion editorial makeup by Claire Imbrogno" 
-                className="w-full h-full rounded-xl object-cover transition-opacity duration-1000 ease-in-out"
+                className="w-full h-full object-cover transition-opacity duration-1000 ease-in-out"
                 style={{ objectPosition: 'center' }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
@@ -63,8 +63,8 @@ const Hero = () => {
                 ))}
               </div>
             </div>
-            <div className="absolute -bottom-5 -right-5 bg-accent text-white p-4 rounded-lg shadow-lg">
-              <p className="font-bold">Claire Imbrogno</p>
+            <div className="absolute -bottom-5 -right-5 bg-accent text-white p-4 rounded-full shadow-lg transform rotate-3 font-cormorant">
+              <p className="font-bold text-lg">Claire Imbrogno</p>
               <p className="text-sm">Professional Makeup Artist</p>
             </div>
           </div>

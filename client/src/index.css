@@ -120,10 +120,28 @@ html {
   font-family: 'Playfair Display', serif;
 }
 
+/* Font options for main headings */
 .modern-display {
-  font-family: 'Italiana', 'Cinzel', serif;
+  font-family: 'Libre Caslon Display', serif;
   letter-spacing: 0.02em;
   font-weight: 400;
+}
+
+.font-gilda {
+  font-family: 'Gilda Display', serif;
+  letter-spacing: 0.03em;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Infant', serif;
+}
+
+.font-yeseva {
+  font-family: 'Yeseva One', serif;
+}
+
+.font-myeongjo {
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 @layer utilities {
@@ -151,4 +169,57 @@ html {
 @keyframes slideUp {
   0% { transform: translateY(20px); opacity: 0; }
   100% { transform: translateY(0); opacity: 1; }
+}
+
+/* Image container styles */
+.hero-image-container {
+  position: relative;
+}
+
+/* Rounded elegant shape */
+.clip-path-angle {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+/* Option 2: Diamond shape */
+.clip-path-diamond {
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+/* Option 3: Custom wavy shape */
+.clip-path-wavy {
+  clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% 85%,
+    85% 90%,
+    70% 85%,
+    55% 90%,
+    40% 85%,
+    25% 90%,
+    10% 85%,
+    0% 90%
+  );
+}
+
+/* Option 4: Elegant arch shape */
+.clip-path-arch {
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 70%,
+    50% 100%,
+    0 70%
+  );
+}
+
+/* Option 5: Asymmetric cut */
+.clip-path-asymm {
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    30% 100%,
+    0 70%
+  );
 }
