@@ -38,9 +38,9 @@ const Header = ({ activeSection }: HeaderProps) => {
   return (
     <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-transparent"} border-b border-gray-200`}>
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        {/* Logo */}
+        {/* Logo - Empty for minimal design */}
         <a href="#home" className="text-2xl font-bold flex items-center">
-          <span className="text-primary modern-display">Claire</span>
+          <span className="text-primary modern-display"></span>
         </a>
         
         {/* Desktop Navigation */}
