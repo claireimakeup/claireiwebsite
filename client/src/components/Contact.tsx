@@ -106,11 +106,11 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row gap-12">
           <div className="md:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 font-serif">
-              Get In <span className="text-accent">Touch</span>
+              Book Your <span className="text-accent">Appointment</span>
             </h2>
             
             <p className="text-secondary mb-8">
-              I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision. Let's create something amazing together!
+              Ready to book a makeup service or have questions? Fill out the form and I'll get back to you within 24 hours. Looking forward to helping you look your best for your special occasion!
             </p>
             
             <div className="space-y-6 mb-8">

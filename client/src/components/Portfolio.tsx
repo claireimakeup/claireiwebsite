@@ -6,10 +6,11 @@ const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const categories = [
-    { id: "all", name: "All" },
-    { id: "design", name: "Design" },
-    { id: "photography", name: "Photography" },
-    { id: "branding", name: "Branding" }
+    { id: "all", name: "All Services" },
+    { id: "bridal", name: "Bridal" },
+    { id: "evening", name: "Evening" },
+    { id: "natural", name: "Natural" },
+    { id: "editorial", name: "Editorial" }
   ];
 
   const filteredProjects = activeCategory === "all" 
@@ -21,14 +22,14 @@ const Portfolio = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-serif">
-            Featured <span className="text-accent">Projects</span>
+            Makeup <span className="text-accent">Services</span>
           </h2>
           <p className="text-secondary max-w-2xl mx-auto">
-            A selection of my recent creative work across various mediums and clients.
+            Professional makeup artistry for every occasion, customized to enhance your natural beauty.
           </p>
         </div>
 
-        {/* Portfolio Filter */}
+        {/* Services Filter */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {categories.map((category) => (
             <Button
@@ -46,7 +47,7 @@ const Portfolio = () => {
           ))}
         </div>
 
-        {/* Portfolio Grid */}
+        {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project) => (
             <div key={project.id} className="portfolio-item group" data-category={project.category}>
@@ -60,9 +61,9 @@ const Portfolio = () => {
                   <div className="text-center p-4">
                     <h3 className="text-white text-xl font-bold">{project.title}</h3>
                     <p className="text-gray-300 mt-2">{project.categories.join(", ")}</p>
-                    <a href={project.url}>
+                    <a href="#contact">
                       <Button variant="default" className="mt-4">
-                        View Details
+                        Book This Service
                       </Button>
                     </a>
                   </div>
@@ -73,9 +74,11 @@ const Portfolio = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Button variant="outline" className="border-accent text-accent hover:bg-accent hover:text-white">
-            View All Projects
-          </Button>
+          <a href="#contact">
+            <Button variant="outline" className="border-accent text-accent hover:bg-accent hover:text-white">
+              Book Your Session
+            </Button>
+          </a>
         </div>
       </div>
     </section>

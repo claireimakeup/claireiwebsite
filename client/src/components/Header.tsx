@@ -36,12 +36,12 @@ const Header = ({ activeSection }: HeaderProps) => {
   };
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-light/90 backdrop-blur-sm shadow-sm" : "bg-transparent"} border-b border-gray-200`}>
+    <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-transparent"} border-b border-gray-200`}>
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <a href="#home" className="text-2xl font-bold flex items-center">
-          <span className="text-primary">John</span>
-          <span className="text-accent">Doe</span>
+          <span className="text-primary font-serif">CI</span>
+          <span className="text-accent font-serif">Makeup</span>
         </a>
         
         {/* Desktop Navigation */}
@@ -57,7 +57,7 @@ const Header = ({ activeSection }: HeaderProps) => {
           ))}
           <a href="#contact">
             <Button variant="default" size="default">
-              Get in Touch
+              Book Now
             </Button>
           </a>
         </nav>
@@ -104,7 +104,7 @@ const Header = ({ activeSection }: HeaderProps) => {
               onClick={closeMobileMenu}
             >
               <Button variant="default" size="lg">
-                Get in Touch
+                Book Now
               </Button>
             </a>
           </nav>
