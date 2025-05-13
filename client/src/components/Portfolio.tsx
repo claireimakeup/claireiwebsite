@@ -70,11 +70,6 @@ const Portfolio = () => {
                     ))}
                   </div>
                   <p className="text-secondary text-sm mb-4 flex-grow">{project.description}</p>
-                  <a href="#contact">
-                    <Button variant="outline" className="w-full border-accent text-accent hover:bg-accent hover:text-white mt-auto">
-                      Book This Style
-                    </Button>
-                  </a>
                 </div>
               </div>
             </div>
