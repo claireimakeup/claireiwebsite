@@ -84,7 +84,7 @@ export const blogPosts = [
 // Navigation links
 export const navLinks = [
   { name: "Home", href: "#home" },
-  { name: "Services", href: "#portfolio" },
+  { name: "Portfolio", href: "#portfolio" },
   { name: "About", href: "#about" },
   { name: "Blog", href: "#blog" },
   { name: "Book Now", href: "#contact" }
