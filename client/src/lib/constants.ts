@@ -43,26 +43,44 @@ export const projects = [
   // CAMPAIGN Category
   {
     id: 5,
-    title: "Brand Campaign",
+    title: "Winter Collection Campaign",
     category: "campaign",
-    categories: ["Campaign", "Commercial"],
-    image: "/assets/portfolio/image3.jpeg",
-    description: "Signature looks developed for major brand marketing campaigns and advertisements.",
+    categories: ["Campaign", "Fashion"],
+    image: "/assets/portfolio/campaign/campaign1.jpg",
+    description: "Clean, luminous skin with subtle highlights for this cozy winter collection campaign.",
     url: "#"
   },
   {
     id: 6,
-    title: "Seasonal Campaign",
+    title: "Sportswear Brand Campaign",
     category: "campaign",
-    categories: ["Campaign", "Seasonal"],
-    image: "/assets/portfolio-image3.jpeg",
-    description: "Themed makeup concepts created for seasonal promotions and holiday campaigns.",
+    categories: ["Campaign", "Athleisure"],
+    image: "/assets/portfolio/campaign/campaign2.jpg",
+    description: "Natural, fresh-faced makeup approach for this contemporary sportswear campaign.",
+    url: "#"
+  },
+  {
+    id: 7,
+    title: "Summer Resort Collection",
+    category: "campaign",
+    categories: ["Campaign", "Editorial"],
+    image: "/assets/portfolio/campaign/campaign3.jpg",
+    description: "Sun-kissed glow and dewy complexion for this outdoor summer resort campaign.",
+    url: "#"
+  },
+  {
+    id: 8,
+    title: "Swimwear Campaign",
+    category: "campaign",
+    categories: ["Campaign", "Commercial"],
+    image: "/assets/portfolio/campaign/campaign4.jpg",
+    description: "Radiant, bronzed skin and glossy highlights for this vibrant swimwear brand campaign.",
     url: "#"
   },
   
   // FASHION Category
   {
-    id: 7,
+    id: 9,
     title: "Fashion Editorial",
     category: "fashion",
     categories: ["Fashion", "Editorial"],
@@ -71,7 +89,7 @@ export const projects = [
     url: "#"
   },
   {
-    id: 8,
+    id: 10,
     title: "Runway Collection",
     category: "fashion",
     categories: ["Fashion", "Runway"],
@@ -82,7 +100,7 @@ export const projects = [
   
   // BRIDAL Category
   {
-    id: 9,
+    id: 11,
     title: "Modern Bride",
     category: "bridal",
     categories: ["Bridal", "Wedding"],
@@ -91,7 +109,7 @@ export const projects = [
     url: "#"
   },
   {
-    id: 10,
+    id: 12,
     title: "Bridal Party",
     category: "bridal",
     categories: ["Bridal", "Wedding Party"],
