@@ -22,7 +22,7 @@ const Portfolio = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-serif">
             My <span className="text-accent">Portfolio</span>
           </h2>
-          <p className="text-secondary max-w-2xl mx-auto">
+          <p className="text-secondary max-w-2xl mx-auto font-times-new-roman">
             A decade and a half of creating beauty across fashion, editorial, bridal, and commercial artistry.
           </p>
         </div>
