@@ -55,6 +55,11 @@ const Portfolio = () => {
                   alt={project.title} 
                   className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105"
                 />
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity duration-300"></div>
+                <div className="absolute bottom-0 left-0 right-0 p-4 bg-black bg-opacity-60 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                  <h3 className="text-white text-lg font-tenor mb-1">{project.title}</h3>
+                  <p className="text-gray-200 text-sm font-times">{project.description}</p>
+                </div>
               </div>
             </div>
           ))}
