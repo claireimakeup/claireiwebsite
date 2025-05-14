@@ -64,6 +64,42 @@ export const projects = [
     description: "Soft, understated makeup that enhances natural features with a modern twist.",
     url: "#"
   },
+  {
+    id: 24,
+    title: "Glossy Editorial",
+    category: "beauty",
+    categories: ["Beauty", "Editorial"],
+    image: "/assets/portfolio/beauty/beauty8.jpg",
+    description: "Luminous, glossy skin with a focus on texture and dimension for this editorial beauty look.",
+    url: "#"
+  },
+  {
+    id: 25,
+    title: "Glowing Complexion",
+    category: "beauty",
+    categories: ["Beauty", "Minimal"],
+    image: "/assets/portfolio/beauty/beauty9.jpg",
+    description: "Radiant, hydrated skin with subtle definition and a natural flush of color.",
+    url: "#"
+  },
+  {
+    id: 26,
+    title: "Commercial Beauty",
+    category: "beauty",
+    categories: ["Beauty", "Campaign"],
+    image: "/assets/portfolio/beauty/beauty10.jpg",
+    description: "Polished, fresh-faced beauty for this modern commercial campaign shoot.",
+    url: "#"
+  },
+  {
+    id: 27,
+    title: "Editorial Elegance",
+    category: "beauty",
+    categories: ["Beauty", "Editorial"],
+    image: "/assets/portfolio/beauty/beauty11.jpg",
+    description: "Clean, sophisticated beauty look with precise details for this fashion editorial.",
+    url: "#"
+  },
   
   // E-COMMERCE Category
   {
