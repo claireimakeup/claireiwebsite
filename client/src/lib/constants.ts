@@ -314,48 +314,98 @@ export const blogPosts = [
   },
   {
     id: 2,
-    title: "Behind the Scenes: Editorial Beauty Shoot",
-    category: "Editorial",
-    date: "May 10, 2025",
-    image: "/assets/blog/blog1.jpg",
-    excerpt: "Take a peek behind the curtain of a high-end editorial beauty shoot. From concept development to the final images, I share the creative process and techniques used to achieve these stunning editorial looks.",
-    slug: "behind-the-scenes-editorial-beauty"
+    title: "The Professional Guide to Long-Lasting Skin Prep",
+    category: "Skin Tips",
+    date: "May 1, 2025",
+    image: "/assets/blog/blog2.jpg",
+    excerpt: "The secret to flawless makeup isn't just about the products you apply on top—it's about creating the perfect canvas first. Learn my professional skin preparation techniques that ensure makeup looks fresh and luminous for hours under studio lights or in real life.",
+    slug: "professional-guide-skin-prep",
+    content: `
+      <p>After years of working on photo shoots and with clients, I've learned that the most important part of makeup application isn't the color products—it's the preparation of the skin. Without a properly prepped canvas, even the most expensive makeup won't perform to its potential.</p>
+
+      <h3>The Science of Skin Preparation</h3>
+
+      <p>Effective skin prep isn't just about cleansing and moisturizing—it's about understanding the relationship between skincare ingredients and makeup formulations. For long-wearing, camera-ready results, I follow a methodical approach that addresses both texture and hydration balance.</p>
+
+      <p>The key is creating what I call "selective hydration"—strategically moisturizing different areas of the face according to their needs rather than applying the same products everywhere. This technique acknowledges that most people have combination skin with different needs across different facial zones.</p>
+
+      <h3>My Professional Prep Sequence</h3>
+
+      <p>For editorial work where makeup needs to last through long shoots under hot lights, I follow this specific sequence:</p>
+
+      <ol>
+        <li><strong>Gentle Exfoliation:</strong> I begin with a mild chemical exfoliant (usually one with lactic acid) rather than physical scrubs to create a smooth surface without irritation.</li>
+        <li><strong>Targeted Hydration:</strong> Next comes a hydrating essence pressed into the skin, followed by strategically placed moisturizer—lighter formulas on the T-zone and richer options on the perimeter of the face.</li>
+        <li><strong>Priming with Purpose:</strong> Instead of applying one primer all over, I use mattifying primers only in areas prone to shine and illuminating primers on areas that need dimension.</li>
+        <li><strong>Setting Spray as Prep:</strong> One unconventional technique I use is applying a small amount of setting spray <em>before</em> foundation. This creates a barrier that helps makeup adhere better and last longer.</li>
+      </ol>
+
+      <h3>The Waiting Game</h3>
+
+      <p>Perhaps the most overlooked aspect of skin prep is timing. I always allow each product to fully absorb before applying the next layer. This patience prevents products from pilling or creating a slippery surface that won't hold makeup properly.</p>
+
+      <p>For important shoots, I allocate at least 20 minutes just for skin preparation before even beginning color application. This investment of time means less touch-ups throughout the day and a more seamless final look.</p>
+
+      <h3>Customizing for Different Skin Types</h3>
+
+      <p>While the general principles remain consistent, I adjust my approach based on skin type:</p>
+
+      <ul>
+        <li><strong>For dry skin:</strong> I incorporate facial oils strategically, pressing a few drops into the skin <em>before</em> moisturizer, which helps trap hydration rather than sitting on top.</li>
+        <li><strong>For oily skin:</strong> I use oil-controlling lotions containing niacinamide, which helps regulate sebum production without overly mattifying the skin.</li>
+        <li><strong>For mature skin:</strong> I apply hydrating primers with peptides that temporarily plump fine lines, creating a smoother surface for foundation application.</li>
+      </ul>
+
+      <p>This tailored approach ensures that whatever makeup look I create afterward—whether it's a natural beauty look or something more editorial—has the best possible foundation for lasting wear and photogenic results.</p>
+    `
   },
   {
     id: 3,
-    title: "Creating the Perfect Glowing Base for Summer",
-    category: "Beauty Tips",
-    date: "May 5, 2025",
-    image: "/assets/blog/blog2.jpg",
-    excerpt: "Learn my professional techniques for creating that coveted summer glow that lasts all day. Focusing on skin prep, product selection, and application methods that work even in hot weather.",
-    slug: "perfect-glowing-base-summer"
-  },
-  {
-    id: 4,
-    title: "The Art of Editorial Makeup",
-    category: "Industry Insights",
-    date: "April 28, 2025",
-    image: "/assets/blog/blog3.jpg",
-    excerpt: "Editorial makeup requires a different approach than everyday looks. Discover the techniques and creative thinking behind creating impactful editorial makeup for photography and fashion.",
-    slug: "art-of-editorial-makeup"
-  },
-  {
-    id: 5,
-    title: "Working with Fashion Brands: A Makeup Artist's Perspective",
-    category: "Career",
-    date: "April 15, 2025",
-    image: "/assets/blog/blog4.jpg",
-    excerpt: "An insider's look at the process of collaborating with fashion brands on campaign shoots. From interpreting the brief to executing cohesive looks that align with the brand's aesthetic.",
-    slug: "working-with-fashion-brands"
-  },
-  {
-    id: 6,
-    title: "Product Spotlight: My Essential Editorial Kit",
+    title: "My Essential Editorial Makeup Kit: Five Products I Can't Work Without",
     category: "Products",
     date: "April 3, 2025",
     image: "/assets/blog/blog5.jpg",
-    excerpt: "A detailed look at the core products I rely on for editorial makeup. These versatile, high-performance items help me create everything from subtle beauty to avant-garde looks on set.",
-    slug: "product-spotlight-editorial-kit"
+    excerpt: "A curated look at the core products I rely on for editorial makeup. These versatile, high-performance items help me create everything from subtle beauty to avant-garde looks on set, proving that a focused kit can be more valuable than an extensive one.",
+    slug: "essential-editorial-makeup-kit",
+    content: `
+      <p>After over a decade working in editorial beauty, I've learned that having a massive kit filled with hundreds of products is often less effective than having a carefully curated selection of versatile, reliable formulations. While I certainly have an extensive collection for different needs, there are five products I consider absolutely essential for every editorial job.</p>
+
+      <h3>1. Multi-Use Cream Pigment</h3>
+
+      <p>The cornerstone of my kit is a professional-grade cream pigment palette that can be used on eyes, cheeks, and lips. These highly concentrated pigments can be sheered out for subtle washes of color or built up for dramatic editorial looks.</p>
+
+      <p>What makes cream pigments invaluable for editorial work is their ability to create dimension and translucency that powder products simply can't match. On camera, they give the skin a natural luminosity that photographs beautifully under studio lighting. My go-to palette contains both neutral shades for sculpting and vibrant colors for creative expression.</p>
+
+      <h3>2. Skin Perfecting Balm</h3>
+
+      <p>Rather than traditional foundation, I rely on a sheer, buildable skin balm that can be applied with fingers or brushes. The best versions contain optical diffusers that create a soft-focus effect on the skin without looking heavy or detectible on camera.</p>
+
+      <p>What sets these balms apart from regular foundations is their adaptability—they can be used as sheer coverage all over, built up only where needed, or mixed with other products to create custom textures. This flexibility is essential when working across different lighting conditions and creative briefs.</p>
+
+      <h3>3. Clear Multipurpose Gloss</h3>
+
+      <p>A high-quality clear gloss is perhaps the most underrated editorial tool. Beyond the obvious lip application, I use it to create everything from a glossy lid to a strategic highlight on cheekbones or collarbones.</p>
+
+      <p>The key is finding a formulation that has the right balance of slip and stay—it should create beautiful light reflection without migrating too quickly. For editorial beauty, I prefer versions that aren't sticky but have enough grip to maintain their position throughout a shoot.</p>
+
+      <h3>4. Precision Concealer Pen</h3>
+
+      <p>Unlike everyday makeup application, editorial work often requires surgical precision. My essential concealer comes in a pen format with a fine tip applicator that allows for pinpoint coverage without disturbing surrounding makeup.</p>
+
+      <p>This tool is invaluable for cleaning up creative eye looks, perfecting lip lines, or covering small imperfections without adding unnecessary layers of product to the skin. The best formulations have buildable coverage and a satin finish that blends seamlessly with other products.</p>
+
+      <h3>5. Transparent Setting Powder</h3>
+
+      <p>The final essential in my kit is a truly transparent setting powder that doesn't alter the color or dimension of cream products. The right formulation should control shine without creating flatness—maintaining the skin's natural dimension while extending wear time.</p>
+
+      <p>I apply this selectively rather than all over, focusing on areas that need longevity while leaving strategic points of luminosity untouched. This balanced approach creates the perfect combination of polish and natural beauty that defines contemporary editorial makeup.</p>
+
+      <h3>The Power of a Focused Kit</h3>
+
+      <p>What these five products demonstrate is that versatility and quality ultimately matter more than quantity. Each item serves multiple purposes and can be combined in countless ways to achieve different effects without weighing down my kit with redundant options.</p>
+
+      <p>This philosophy of focused intentionality extends beyond the products themselves to the entire approach—understanding exactly what each item brings to your work allows for more creative freedom and technical precision, which is the essence of editorial excellence.</p>
+    `
   }
 ];
 
