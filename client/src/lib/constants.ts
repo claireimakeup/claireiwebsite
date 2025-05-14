@@ -236,29 +236,65 @@ export const projects = [
   // BRIDAL Category
   {
     id: 12,
-    title: "Bridal Party Collection",
+    title: "Golden Hour Couple",
     category: "bridal",
     categories: ["Bridal", "Wedding"],
     image: "/assets/portfolio/bridal/bridal1.jpg",
-    description: "Elegant, coordinated makeup for the bride and her bridal party in soft, romantic tones.",
+    description: "Radiant, natural makeup in golden hour light, creating a timeless and joyful bridal look.",
     url: "#"
   },
   {
     id: 13,
-    title: "Bridal Preparation",
+    title: "Modern Elegance",
     category: "bridal",
-    categories: ["Bridal", "Behind the Scenes"],
+    categories: ["Bridal", "Editorial"],
     image: "/assets/portfolio/bridal/bridal2.jpg",
-    description: "Professional makeup application for the bride on her wedding day, creating a flawless look.",
+    description: "Sophisticated bridal makeup with defined features and enhanced glow for an editorial feel.",
     url: "#"
   },
   {
     id: 14,
-    title: "Elegant Bride",
+    title: "Minimalist Bridal",
     category: "bridal",
     categories: ["Bridal", "Wedding"],
-    image: "/assets/portfolio-image1.jpeg",
-    description: "Personalized bridal looks that enhance natural beauty and last throughout the day.",
+    image: "/assets/portfolio/bridal/bridal3.jpg",
+    description: "Clean, sophisticated bridal makeup that emphasizes natural beauty with a classic, timeless approach.",
+    url: "#"
+  },
+  {
+    id: 29,
+    title: "Field Romance",
+    category: "bridal",
+    categories: ["Bridal", "Wedding"],
+    image: "/assets/portfolio/bridal/bridal4.jpg",
+    description: "Soft, romantic bridal makeup designed to enhance natural beauty in outdoor lighting.",
+    url: "#"
+  },
+  {
+    id: 30,
+    title: "Sunset Bride",
+    category: "bridal",
+    categories: ["Bridal", "Wedding"],
+    image: "/assets/portfolio/bridal/bridal5.jpg",
+    description: "Luminous bridal makeup that captures golden light and creates a glowing, ethereal appearance.",
+    url: "#"
+  },
+  {
+    id: 31,
+    title: "Bridal Party",
+    category: "bridal",
+    categories: ["Bridal", "Wedding Party"],
+    image: "/assets/portfolio/bridal/bridal6.jpg",
+    description: "Coordinated makeup looks for the entire bridal party, balancing individual beauty with a cohesive aesthetic.",
+    url: "#"
+  },
+  {
+    id: 32,
+    title: "Bridal Party Portrait",
+    category: "bridal",
+    categories: ["Bridal", "Wedding Party"],
+    image: "/assets/portfolio/bridal/bridal7.jpg",
+    description: "Elegant, sophisticated makeup application for the bridal party, featuring clean, timeless beauty looks.",
     url: "#"
   }
 ];
