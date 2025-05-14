@@ -125,8 +125,62 @@ export const projects = [
     title: "Online Catalogue",
     category: "ecommerce",
     categories: ["E-commerce", "Retail"],
-    image: "/assets/portfolio-image1.jpeg",
+    image: "/assets/portfolio/ecommerce/ecommerce1.jpg",
     description: "Polished makeup looks created to showcase clothing and accessories for online shopping.",
+    url: "#"
+  },
+  {
+    id: 35,
+    title: "Minimalist Beauty",
+    category: "ecommerce",
+    categories: ["E-commerce", "Fashion"],
+    image: "/assets/portfolio/ecommerce/ecommerce2.jpeg",
+    description: "Clean, understated makeup that emphasizes natural features for this clothing brand campaign.",
+    url: "#"
+  },
+  {
+    id: 36,
+    title: "Modern Simplicity",
+    category: "ecommerce",
+    categories: ["E-commerce", "Retail"],
+    image: "/assets/portfolio/ecommerce/ecommerce3.jpeg",
+    description: "Fresh-faced beauty with subtle definition to showcase contemporary fashion pieces.",
+    url: "#"
+  },
+  {
+    id: 37,
+    title: "Casual Collection",
+    category: "ecommerce",
+    categories: ["E-commerce", "Lifestyle"],
+    image: "/assets/portfolio/ecommerce/ecommerce4.jpeg",
+    description: "Natural, effortless makeup look designed to highlight casual fashion styles.",
+    url: "#"
+  },
+  {
+    id: 38,
+    title: "Essentials Line",
+    category: "ecommerce",
+    categories: ["E-commerce", "Beauty"],
+    image: "/assets/portfolio/ecommerce/ecommerce5.jpeg",
+    description: "Clean beauty approach with glowing skin to complement essential clothing items.",
+    url: "#"
+  },
+  {
+    id: 39,
+    title: "Contemporary Basics",
+    category: "ecommerce",
+    categories: ["E-commerce", "Retail"],
+    image: "/assets/portfolio/ecommerce/ecommerce6.jpeg",
+    description: "Polished, minimal makeup created to showcase contemporary fashion basics.",
+    url: "#"
+  },
+  {
+    id: 40,
+    title: "Fashion Forward",
+    category: "ecommerce",
+    categories: ["E-commerce", "Editorial"],
+    image: "/assets/portfolio/ecommerce/ecommerce7.jpeg",
+    description: "Fresh, modern beauty look designed for an online fashion editorial campaign.",
     url: "#"
   },
   
