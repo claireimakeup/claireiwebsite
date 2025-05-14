@@ -266,22 +266,96 @@ export const projects = [
 // Blog Posts
 export const blogPosts = [
   {
-    id: 2,
-    title: "Summer Makeup Trends for 2025",
+    id: 1,
+    title: "The Renaissance of Technique: Blush Draping and Underpainting",
     category: "Trends",
-    date: "May 5, 2025",
-    image: "/assets/portfolio-image1.jpeg",
-    excerpt: "This summer is all about glowing skin, minimal eye makeup, and bold lips. Let's explore the hottest trends...",
-    slug: "summer-makeup-trends-2025"
+    date: "May 14, 2025",
+    image: "/assets/blog/blog6.jpg",
+    excerpt: "Modern makeup artistry is embracing sculptural techniques like blush draping and underpainting that create dimension and luminosity. These methods are revolutionizing how we approach beauty for both editorial work and everyday looks.",
+    slug: "blush-draping-underpainting-techniques",
+    content: `
+      <p>In the ever-evolving world of makeup artistry, we're witnessing a fascinating return to techniques that prioritize dimension and intentional color layering. Two methods in particular—blush draping and underpainting—have emerged as game-changers in how I approach both editorial and everyday makeup.</p>
+
+      <h3>Blush Draping: Sculpting with Color</h3>
+
+      <p>Blush draping isn't new—it's a technique that gained popularity in the 1970s and 80s through makeup artists like Way Bandy. What makes its revival so interesting is how it's been refined for modern sensibilities. Unlike the heavy-handed application of decades past, today's approach is about creating a seamless color gradient that lifts and sculpts the face.</p>
+
+      <p>The technique involves applying blush not just to the apples of the cheeks, but extending it upward toward the temples, sometimes even connecting to the eye area. This creates a cohesive "drape" of color that follows the natural high points of the face. For editorial work, I often use this technique to create ethereal, flushed looks that photograph beautifully and add dimension without the obvious contouring lines that have dominated beauty in recent years.</p>
+
+      <p>What makes draping so effective is its ability to create structure while maintaining softness—a balance that's particularly important in editorial beauty where we want precise control over how light interacts with the face.</p>
+
+      <h3>Underpainting: The Foundation of Dimension</h3>
+
+      <p>Underpainting might be my favorite technical revival. This method involves applying cream contour, highlight, and sometimes blush <em>before</em> foundation. It's essentially a reverse of the traditional makeup order, and the results can be stunning.</p>
+
+      <p>By placing these color and dimension products underneath a sheer layer of foundation, you create a subtle, diffused effect that looks remarkably natural. The foundation acts as a filter, softening everything beneath it and creating the appearance of dimension that seems to come from within the skin rather than sitting on top of it.</p>
+
+      <p>For camera work, underpainting helps avoid the problem of obvious makeup layers that can sometimes look heavy or artificial under strong lighting. Instead, it creates that coveted "lit from within" quality that feels modern and sophisticated.</p>
+
+      <h3>Why These Techniques Matter Now</h3>
+
+      <p>What's particularly interesting about the resurgence of these techniques is the timing. After years of heavily contoured, matte looks dominating beauty trends, we're seeing a return to methods that celebrate luminosity and the natural structure of the face.</p>
+
+      <p>I believe this reflects a broader shift in the industry toward celebrating individual features rather than transforming them. It's about enhancement rather than alteration, which aligns perfectly with the editorial beauty work I'm most passionate about.</p>
+
+      <h3>Implementing These Techniques in Your Work</h3>
+
+      <p>For makeup artists looking to incorporate these methods into their repertoire:</p>
+
+      <ul>
+        <li><strong>With blush draping</strong>, start with a small amount of product and build gradually. The placement should follow the natural high points of the face—cheekbones, temples, and sometimes across the bridge of the nose for a sun-flushed effect.</li>
+        <li><strong>For underpainting</strong>, cream products are essential. Apply your contour, highlight, and blush in cream formulations first, blend thoroughly, and then apply a sheer to medium coverage foundation over top. The key is to use a light hand with the foundation to allow the underpainting to show through.</li>
+      </ul>
+
+      <p>Both techniques require practice but offer incredible versatility. They can be subtle for commercial work or amplified for more creative editorial projects where we can push boundaries further.</p>
+
+      <p>As makeup artists, our technique arsenal is constantly evolving, but these particular methods feel less like trends and more like meaningful additions to our foundational approach. They represent a sophisticated understanding of light, dimension, and color theory that elevates our work beyond simply following trends.</p>
+    `
+  },
+  {
+    id: 2,
+    title: "Behind the Scenes: Editorial Beauty Shoot",
+    category: "Editorial",
+    date: "May 10, 2025",
+    image: "/assets/blog/blog1.jpg",
+    excerpt: "Take a peek behind the curtain of a high-end editorial beauty shoot. From concept development to the final images, I share the creative process and techniques used to achieve these stunning editorial looks.",
+    slug: "behind-the-scenes-editorial-beauty"
   },
   {
     id: 3,
-    title: "How to Choose the Right Foundation for Your Skin Type",
-    category: "Tips & Tricks",
+    title: "Creating the Perfect Glowing Base for Summer",
+    category: "Beauty Tips",
+    date: "May 5, 2025",
+    image: "/assets/blog/blog2.jpg",
+    excerpt: "Learn my professional techniques for creating that coveted summer glow that lasts all day. Focusing on skin prep, product selection, and application methods that work even in hot weather.",
+    slug: "perfect-glowing-base-summer"
+  },
+  {
+    id: 4,
+    title: "The Art of Editorial Makeup",
+    category: "Industry Insights",
     date: "April 28, 2025",
-    image: "/assets/portfolio-image3.jpeg",
-    excerpt: "Finding the perfect foundation can be challenging. Here's my professional guide to matching your skin type...",
-    slug: "choose-right-foundation"
+    image: "/assets/blog/blog3.jpg",
+    excerpt: "Editorial makeup requires a different approach than everyday looks. Discover the techniques and creative thinking behind creating impactful editorial makeup for photography and fashion.",
+    slug: "art-of-editorial-makeup"
+  },
+  {
+    id: 5,
+    title: "Working with Fashion Brands: A Makeup Artist's Perspective",
+    category: "Career",
+    date: "April 15, 2025",
+    image: "/assets/blog/blog4.jpg",
+    excerpt: "An insider's look at the process of collaborating with fashion brands on campaign shoots. From interpreting the brief to executing cohesive looks that align with the brand's aesthetic.",
+    slug: "working-with-fashion-brands"
+  },
+  {
+    id: 6,
+    title: "Product Spotlight: My Essential Editorial Kit",
+    category: "Products",
+    date: "April 3, 2025",
+    image: "/assets/blog/blog5.jpg",
+    excerpt: "A detailed look at the core products I rely on for editorial makeup. These versatile, high-performance items help me create everything from subtle beauty to avant-garde looks on set.",
+    slug: "product-spotlight-editorial-kit"
   }
 ];
 
