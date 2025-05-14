@@ -88,47 +88,47 @@ export const projects = [
   // CAMPAIGN Category
   {
     id: 6,
-    title: "Winter Collection Campaign",
+    title: "Fashion Campaign",
     category: "campaign",
     categories: ["Campaign", "Fashion"],
     image: "/assets/portfolio/campaign/campaign1.jpg",
-    description: "Clean, luminous skin with subtle highlights for this cozy winter collection campaign.",
+    description: "Modern, glowing skin makeup created for this fashion brand campaign shoot.",
     url: "#"
   },
   {
     id: 7,
-    title: "Sportswear Brand Campaign",
+    title: "Beauty Portrait",
     category: "campaign",
-    categories: ["Campaign", "Athleisure"],
+    categories: ["Campaign", "Beauty"],
     image: "/assets/portfolio/campaign/campaign2.jpg",
-    description: "Natural, fresh-faced makeup approach for this contemporary sportswear campaign.",
+    description: "Clean, contemporary makeup with subtle definition for this beauty campaign.",
     url: "#"
   },
   {
     id: 8,
-    title: "Summer Resort Collection",
+    title: "Natural Glamour",
     category: "campaign",
     categories: ["Campaign", "Editorial"],
     image: "/assets/portfolio/campaign/campaign3.jpg",
-    description: "Sun-kissed glow and dewy complexion for this outdoor summer resort campaign.",
+    description: "Effortless beauty with soft definition and luminous skin for this campaign look.",
     url: "#"
   },
   {
     id: 9,
-    title: "Swimwear Campaign",
+    title: "Commercial Campaign",
     category: "campaign",
     categories: ["Campaign", "Commercial"],
     image: "/assets/portfolio/campaign/campaign4.jpg",
-    description: "Radiant, bronzed skin and glossy highlights for this vibrant swimwear brand campaign.",
+    description: "Fresh, radiant makeup with defined features for this commercial photo campaign.",
     url: "#"
   },
   {
     id: 15,
-    title: "Photo Booth Campaign",
+    title: "Fashion Editorial",
     category: "campaign",
-    categories: ["Campaign", "Lifestyle"],
+    categories: ["Campaign", "Editorial"],
     image: "/assets/portfolio/campaign/campaign5.jpg",
-    description: "Fresh, youthful makeup for this playful friend-focused lifestyle campaign.",
+    description: "Clean, polished beauty look with subtle contour for this fashion editorial shoot.",
     url: "#"
   },
   {
