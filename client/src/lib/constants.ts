@@ -296,6 +296,24 @@ export const projects = [
     image: "/assets/portfolio/bridal/bridal7.jpg",
     description: "Elegant, sophisticated makeup application for the bridal party, featuring clean, timeless beauty looks.",
     url: "#"
+  },
+  {
+    id: 33,
+    title: "Classic Elegance",
+    category: "bridal",
+    categories: ["Bridal", "Wedding"],
+    image: "/assets/portfolio/bridal/bridal8.jpg",
+    description: "Timeless, refined bridal makeup complementing the bride's elegant gown and rustic venue backdrop.",
+    url: "#"
+  },
+  {
+    id: 34,
+    title: "Bridal Party Harmony",
+    category: "bridal",
+    categories: ["Bridal", "Wedding Party"],
+    image: "/assets/portfolio/bridal/bridal9.jpg",
+    description: "Coordinated makeup looks for the bride and bridesmaids, featuring soft pink tones and natural glowing finishes.",
+    url: "#"
   }
 ];
 
