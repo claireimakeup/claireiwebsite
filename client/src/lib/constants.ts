@@ -125,7 +125,7 @@ export const projects = [
     title: "Online Catalogue",
     category: "ecommerce",
     categories: ["E-commerce", "Retail"],
-    image: "/images/ecommerce/ecommerce1.jpg",
+    image: "/image_123986672.jpg",
     description: "Polished makeup looks created to showcase clothing and accessories for online shopping.",
     url: "#"
   },
