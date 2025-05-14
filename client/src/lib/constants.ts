@@ -28,6 +28,42 @@ export const projects = [
     description: "Timeless beauty with defined eyes and a statement red lip.",
     url: "#"
   },
+  {
+    id: 20,
+    title: "Fresh Faced Glow",
+    category: "beauty",
+    categories: ["Beauty", "Natural"],
+    image: "/assets/portfolio/beauty/beauty4.jpg",
+    description: "Luminous complexion with soft, glowing skin and natural definition.",
+    url: "#"
+  },
+  {
+    id: 21,
+    title: "Commercial Beauty",
+    category: "beauty",
+    categories: ["Beauty", "Campaign"],
+    image: "/assets/portfolio/beauty/beauty5.jpg",
+    description: "Clean, polished beauty look created for a fashion campaign.",
+    url: "#"
+  },
+  {
+    id: 22,
+    title: "Modern Editorial",
+    category: "beauty",
+    categories: ["Beauty", "Editorial"],
+    image: "/assets/portfolio/beauty/beauty6.jpg",
+    description: "Contemporary beauty with precise detailing for an editorial photoshoot.",
+    url: "#"
+  },
+  {
+    id: 23,
+    title: "Natural Beauty Focus",
+    category: "beauty",
+    categories: ["Beauty", "Minimal"],
+    image: "/assets/portfolio/beauty/beauty7.jpg",
+    description: "Soft, understated makeup that enhances natural features with a modern twist.",
+    url: "#"
+  },
   
   // E-COMMERCE Category
   {
