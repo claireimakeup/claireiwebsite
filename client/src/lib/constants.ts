@@ -100,6 +100,15 @@ export const projects = [
     description: "Clean, sophisticated beauty look with precise details for this fashion editorial.",
     url: "#"
   },
+  {
+    id: 28,
+    title: "Professional Profile",
+    category: "beauty",
+    categories: ["Beauty", "Portrait"],
+    image: "/assets/portfolio/beauty/beauty12.jpg",
+    description: "Professional portrait showcasing a clean, sophisticated beauty look.",
+    url: "#"
+  },
   
   // E-COMMERCE Category
   {
