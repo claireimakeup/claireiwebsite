@@ -172,68 +172,80 @@ const Contact = () => {
           </div>
           
           <div className="md:w-1/2">
-            <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow-md">
-              <h3 className="text-2xl font-bold mb-6">Send Me a Message</h3>
+            <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+              <h3 className="text-2xl font-bold mb-8 font-tenor-sans text-center">Get In Touch</h3>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
                 <div className="space-y-2">
-                  <Label htmlFor="name">Your Name</Label>
+                  <Label htmlFor="name" className="text-sm font-medium text-gray-700">Full Name</Label>
                   <Input 
                     id="name" 
                     value={formData.name}
                     onChange={handleChange}
                     placeholder="Jane Smith" 
-                    className="px-4 py-3"
+                    className="px-4 py-3 border-gray-200 focus:ring-accent focus:border-accent transition-all duration-200"
                     required
                   />
                 </div>
                 
                 <div className="space-y-2">
-                  <Label htmlFor="email">Your Email</Label>
+                  <Label htmlFor="email" className="text-sm font-medium text-gray-700">Email Address</Label>
                   <Input 
                     id="email" 
                     type="email" 
                     value={formData.email}
                     onChange={handleChange}
                     placeholder="jane@example.com" 
-                    className="px-4 py-3"
+                    className="px-4 py-3 border-gray-200 focus:ring-accent focus:border-accent transition-all duration-200"
                     required
                   />
                 </div>
               </div>
               
               <div className="mb-6 space-y-2">
-                <Label htmlFor="subject">Subject</Label>
+                <Label htmlFor="subject" className="text-sm font-medium text-gray-700">Subject</Label>
                 <Input 
                   id="subject" 
                   value={formData.subject}
                   onChange={handleChange}
                   placeholder="Service Inquiry" 
-                  className="px-4 py-3"
+                  className="px-4 py-3 border-gray-200 focus:ring-accent focus:border-accent transition-all duration-200"
                   required
                 />
               </div>
               
-              <div className="mb-6 space-y-2">
-                <Label htmlFor="message">Your Message</Label>
+              <div className="mb-8 space-y-2">
+                <Label htmlFor="message" className="text-sm font-medium text-gray-700">Your Message</Label>
                 <Textarea 
                   id="message" 
                   value={formData.message}
                   onChange={handleChange}
                   rows={5} 
                   placeholder="Tell me about your makeup needs or any questions you have about my services." 
-                  className="px-4 py-3 resize-none"
+                  className="px-4 py-3 border-gray-200 focus:ring-accent focus:border-accent transition-all duration-200 resize-none"
                   required
                 />
               </div>
               
               <Button 
                 type="submit" 
-                className="w-full"
+                className="w-full py-3 bg-accent hover:bg-accent/90 text-white font-medium rounded-md transition-all duration-300 shadow-sm"
                 disabled={isSubmitting}
               >
-                {isSubmitting ? "Sending..." : "Send Message"}
+                {isSubmitting ? (
+                  <span className="flex items-center justify-center">
+                    <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Sending...
+                  </span>
+                ) : "Send Message"}
               </Button>
+              
+              <p className="text-xs text-center text-gray-500 mt-4">
+                I'll respond to your inquiry within 24-48 hours.
+              </p>
             </form>
           </div>
         </div>
