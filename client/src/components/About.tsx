@@ -27,7 +27,7 @@ const About = () => {
             </p>
             
             <p className="text-secondary mb-5 leading-relaxed font-times-new-roman text-base">
-              With over 15 years immersed in the beauty industry, Claire has refined her craft alongside some of Australia's most prestigious brands. Working with Mecca, Laura Mercier, Cotton On, Myer, and countless photoshoots has given her the versatility to adapt to any style or brief while maintaining her signature light-handed approach that allows natural beauty to shine through.
+              With over 15 years immersed in the beauty industry, Claire has refined her craft alongside some of Australia's most prestigious brands. Her journey includes two years as a makeup artist in London and time as a full-time colour specialist at the prestigious Space.NK makeup store. Working with Mecca, Laura Mercier, Cotton On, Myer, and countless photoshoots has given her the versatility to adapt to any style or brief while maintaining her signature light-handed approach that allows natural beauty to shine through.
             </p>
             
             <p className="text-secondary mb-5 leading-relaxed font-times-new-roman text-base">
@@ -35,7 +35,7 @@ const About = () => {
             </p>
             
             <p className="text-secondary mb-6 leading-relaxed font-times-new-roman text-base">
-              Beyond makeup artistry, Claire is also a skilled hair stylist who can create the perfect complete look for any occasion. She has extensive experience working with children on set, bringing a patient and gentle approach that puts young talent at ease. Additionally, Claire specializes in men's grooming for photo shoots, ensuring male models and actors look their absolute best while maintaining a natural, polished appearance.
+              Beyond makeup artistry, Claire is also a skilled hair stylist who can create the perfect complete look for any occasion. With extensive training in skincare, she brings a holistic approach that ensures every client receives makeup application that not only looks beautiful but also benefits their skin. She has extensive experience working with children on set, bringing a patient and gentle approach that puts young talent at ease. Additionally, Claire specializes in men's grooming for photo shoots, ensuring male models and actors look their absolute best while maintaining a natural, polished appearance.
             </p>
             
             <h3 className="text-xl font-tenor-sans tracking-wide mb-4">My Expertise</h3>
