@@ -552,6 +552,18 @@ export const expertise = [
   {
     title: "Makeup Lessons",
     description: "Personalized lessons to master your everyday makeup"
+  },
+  {
+    title: "Hair Styling",
+    description: "Complete hair styling services to complement your makeup look"
+  },
+  {
+    title: "Men's Grooming",
+    description: "Specialized grooming services for male models and photoshoots"
+  },
+  {
+    title: "Children's Styling",
+    description: "Gentle approach to working with children on professional sets"
   }
 ];
 

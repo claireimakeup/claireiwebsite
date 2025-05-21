@@ -30,8 +30,12 @@ const About = () => {
               With over 15 years immersed in the beauty industry, Claire has refined her craft alongside some of Australia's most prestigious brands. Working with Mecca, Laura Mercier, Cotton On, Myer, and countless photoshoots has given her the versatility to adapt to any style or brief while maintaining her signature light-handed approach that allows natural beauty to shine through.
             </p>
             
-            <p className="text-secondary mb-6 leading-relaxed font-times-new-roman text-base">
+            <p className="text-secondary mb-5 leading-relaxed font-times-new-roman text-base">
               Claire approaches each face with the same meticulous care and creativity whether it's for a bride's special day, a magazine editorial, or a major commercial campaign. Her kit is stocked with only the highest quality products from M.A.C, Dior, NARS, Charlotte Tilbury, and Hourglass, ensuring every look is built on a foundation of luxury and longevity. Based in Melbourne but available Australia-wide, Claire brings the same dedication to creating your perfect look that has made her a trusted name in the industry.
+            </p>
+            
+            <p className="text-secondary mb-6 leading-relaxed font-times-new-roman text-base">
+              Beyond makeup artistry, Claire is also a skilled hair stylist who can create the perfect complete look for any occasion. She has extensive experience working with children on set, bringing a patient and gentle approach that puts young talent at ease. Additionally, Claire specializes in men's grooming for photo shoots, ensuring male models and actors look their absolute best while maintaining a natural, polished appearance.
             </p>
             
             <h3 className="text-xl font-tenor-sans tracking-wide mb-4">My Expertise</h3>
