@@ -54,18 +54,7 @@ const About = () => {
               ))}
             </div>
             
-            <div className="flex gap-4 flex-wrap">
-              <a href="#contact">
-                <Button variant="default">
-                  Book a Session
-                </Button>
-              </a>
-              <a href="#portfolio">
-                <Button variant="outline">
-                  View Services
-                </Button>
-              </a>
-            </div>
+
           </div>
         </div>
       </div>
