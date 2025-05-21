@@ -37,24 +37,6 @@ const About = () => {
             <p className="text-secondary mb-6 leading-relaxed font-times-new-roman text-base">
               Beyond makeup artistry, Claire is also a skilled hair stylist who can create the perfect complete look for any occasion. With extensive training in skincare, she brings a holistic approach that ensures every client receives makeup application that not only looks beautiful but also benefits their skin. She has extensive experience working with children on set, bringing a patient and gentle approach that puts young talent at ease. Additionally, Claire specializes in men's grooming for photo shoots, ensuring male models and actors look their absolute best while maintaining a natural, polished appearance.
             </p>
-            
-            <h3 className="text-xl font-tenor-sans tracking-wide mb-4">My Expertise</h3>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-              {expertise.map((skill, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <div className="mt-1 text-accent">
-                    <Check className="h-5 w-5" />
-                  </div>
-                  <div>
-                    <h4 className="font-jost font-medium">{skill.title}</h4>
-                    <p className="text-secondary text-sm font-times-new-roman">{skill.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            
-
           </div>
         </div>
       </div>
