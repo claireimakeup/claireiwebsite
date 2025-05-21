@@ -546,8 +546,8 @@ export const expertise = [
     description: "Glamorous looks for parties, proms, and formal occasions"
   },
   {
-    title: "Editorial",
-    description: "Creative makeup for photoshoots and fashion events"
+    title: "Photoshoot Makeup",
+    description: "Creative makeup for professional photoshoots and fashion events"
   },
   {
     title: "Makeup Lessons",

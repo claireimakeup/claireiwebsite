@@ -23,7 +23,7 @@ const About = () => {
             </h2>
             
             <p className="text-secondary mb-5 leading-relaxed font-times-new-roman text-base">
-              Beginning with a love of painting and watercolors, Claire discovered her artistic vision could transform more than just paper. Her journey from delicate brushstrokes on canvas to creating stunning beauty looks for editorial photoshoots reveals an artist who sees faces as her ultimate medium. More than just applying makeup, Claire creates a connection with each canvas she works on, seeing the unique beauty in every client that sits in her chair.
+              Beginning with a love of painting and watercolors, Claire discovered her artistic vision could transform more than just paper. Her journey from delicate brushstrokes on canvas to creating stunning beauty looks for professional photoshoots reveals an artist who sees faces as her ultimate medium. More than just applying makeup, Claire creates a connection with each canvas she works on, seeing the unique beauty in every client that sits in her chair.
             </p>
             
             <p className="text-secondary mb-5 leading-relaxed font-times-new-roman text-base">
@@ -31,7 +31,7 @@ const About = () => {
             </p>
             
             <p className="text-secondary mb-5 leading-relaxed font-times-new-roman text-base">
-              Claire approaches each face with the same meticulous care and creativity whether it's for a bride's special day, a magazine editorial, or a major commercial campaign. Her kit is stocked with only the highest quality products from M.A.C, Dior, NARS, Charlotte Tilbury, and Hourglass, ensuring every look is built on a foundation of luxury and longevity. Based in Melbourne but available Australia-wide, Claire brings the same dedication to creating your perfect look that has made her a trusted name in the industry.
+              Claire approaches each face with the same meticulous care and creativity whether it's for a bride's special day, a magazine photoshoot, or a major commercial campaign. Her kit is stocked with only the highest quality products from M.A.C, Dior, NARS, Charlotte Tilbury, and Hourglass, ensuring every look is built on a foundation of luxury and longevity. Based in Melbourne but available Australia-wide, Claire brings the same dedication to creating your perfect look that has made her a trusted name in the industry.
             </p>
             
             <p className="text-secondary mb-6 leading-relaxed font-times-new-roman text-base">
