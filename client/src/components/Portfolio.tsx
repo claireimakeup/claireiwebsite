@@ -49,12 +49,11 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project) => (
             <div key={project.id} className="portfolio-item group" data-category={project.category}>
-              <div className="relative overflow-hidden rounded-xl shadow-md">
+              <div className="relative overflow-hidden rounded-xl shadow-md aspect-[4/5]">
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
-                  style={{ maxHeight: '400px' }}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity duration-300"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-4 bg-black bg-opacity-60 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
