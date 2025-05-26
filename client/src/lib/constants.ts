@@ -184,6 +184,24 @@ export const projects = [
     description: "Fresh, modern beauty look designed for an online fashion editorial campaign.",
     url: "#"
   },
+  {
+    id: 44,
+    title: "Denim Collection",
+    category: "ecommerce",
+    categories: ["E-commerce", "Fashion"],
+    image: "/assets/portfolio/ecommerce/ecommerce8.jpg",
+    description: "Bold, contemporary makeup showcasing denim fashion with natural radiance.",
+    url: "#"
+  },
+  {
+    id: 45,
+    title: "Lifestyle Essentials",
+    category: "ecommerce",
+    categories: ["E-commerce", "Casual"],
+    image: "/assets/portfolio/ecommerce/ecommerce9.jpg",
+    description: "Effortless beauty look perfect for showcasing everyday lifestyle essentials.",
+    url: "#"
+  },
   
   // CAMPAIGN Category
   {
