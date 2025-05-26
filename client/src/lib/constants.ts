@@ -730,7 +730,7 @@ export const navLinks = [
 export const socialLinks = [
   { name: "Instagram", href: "https://instagram.com/claire_imakeup/", icon: "instagram" },
   { name: "TikTok", href: "https://www.tiktok.com/@claire_imakeup?_t=ZS-8wfr7t7Q4ri&_r=1", icon: "tiktok" },
-  { name: "Facebook", href: "https://facebook.com/claireimbrognomakeupartist/", icon: "facebook" }
+  { name: "Facebook", href: "https://www.facebook.com/share/16oGmDnoqs/?mibextid=wwXIfr", icon: "facebook" }
 ];
 
 // Makeup Services/Expertise
