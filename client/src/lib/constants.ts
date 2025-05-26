@@ -728,10 +728,8 @@ export const navLinks = [
 
 // Social links
 export const socialLinks = [
-  { name: "Instagram", href: "https://instagram.com/cimakeup.au", icon: "instagram" },
-  { name: "Facebook", href: "https://facebook.com/cimakeup", icon: "facebook" },
-  { name: "Pinterest", href: "https://pinterest.com/cimakeup", icon: "pinterest" },
-  { name: "TikTok", href: "https://tiktok.com/@cimakeup", icon: "tiktok" }
+  { name: "Instagram", href: "https://instagram.com/claire_imakeup/", icon: "instagram" },
+  { name: "TikTok", href: "https://tiktok.com/@claire_imakeup", icon: "tiktok" }
 ];
 
 // Makeup Services/Expertise
