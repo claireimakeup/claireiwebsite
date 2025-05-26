@@ -249,6 +249,123 @@ export const projects = [
     description: "Sun-kissed, natural beauty look for this outdoor country-inspired campaign.",
     url: "#"
   },
+  {
+    id: 30,
+    title: "Editorial Beauty",
+    category: "campaign",
+    categories: ["Campaign", "Editorial"],
+    image: "/assets/portfolio/campaign/campaign8.jpg",
+    description: "Striking editorial makeup with precise definition for this high-fashion campaign.",
+    url: "#"
+  },
+  {
+    id: 31,
+    title: "Modern Portrait",
+    category: "campaign",
+    categories: ["Campaign", "Beauty"],
+    image: "/assets/portfolio/campaign/campaign9.jpg",
+    description: "Contemporary beauty look with clean lines and subtle enhancement.",
+    url: "#"
+  },
+  {
+    id: 32,
+    title: "Fashion Forward",
+    category: "campaign",
+    categories: ["Campaign", "Fashion"],
+    image: "/assets/portfolio/campaign/campaign10.jpg",
+    description: "Bold, confident makeup created for this contemporary fashion campaign.",
+    url: "#"
+  },
+  {
+    id: 33,
+    title: "Supré Collection",
+    category: "campaign",
+    categories: ["Campaign", "Commercial"],
+    image: "/assets/portfolio/campaign/campaign11.jpg",
+    description: "Fresh, youthful beauty for this vibrant fashion brand campaign.",
+    url: "#"
+  },
+  {
+    id: 34,
+    title: "Creative Editorial",
+    category: "campaign",
+    categories: ["Campaign", "Editorial"],
+    image: "/assets/portfolio/campaign/campaign12.jpg",
+    description: "Artistic makeup design with innovative textures for this editorial shoot.",
+    url: "#"
+  },
+  {
+    id: 35,
+    title: "Spring Campaign",
+    category: "campaign",
+    categories: ["Campaign", "Seasonal"],
+    image: "/assets/portfolio/campaign/campaign13.jpg",
+    description: "Light, airy beauty look capturing the essence of spring for this campaign.",
+    url: "#"
+  },
+  {
+    id: 36,
+    title: "Urban Style",
+    category: "campaign",
+    categories: ["Campaign", "Street"],
+    image: "/assets/portfolio/campaign/campaign14.jpg",
+    description: "Edgy, modern makeup perfect for this urban fashion campaign.",
+    url: "#"
+  },
+  {
+    id: 37,
+    title: "Classic Beauty",
+    category: "campaign",
+    categories: ["Campaign", "Timeless"],
+    image: "/assets/portfolio/campaign/campaign15.jpg",
+    description: "Timeless elegance with refined features for this sophisticated campaign.",
+    url: "#"
+  },
+  {
+    id: 38,
+    title: "Contemporary Edge",
+    category: "campaign",
+    categories: ["Campaign", "Modern"],
+    image: "/assets/portfolio/campaign/campaign16.jpg",
+    description: "Sharp, contemporary makeup with precise detailing for this modern campaign.",
+    url: "#"
+  },
+  {
+    id: 39,
+    title: "Supré Summer",
+    category: "campaign",
+    categories: ["Campaign", "Summer"],
+    image: "/assets/portfolio/campaign/campaign17.jpg",
+    description: "Bright, summery beauty look for this seasonal fashion campaign.",
+    url: "#"
+  },
+  {
+    id: 40,
+    title: "Natural Radiance",
+    category: "campaign",
+    categories: ["Campaign", "Natural"],
+    image: "/assets/portfolio/campaign/campaign18.jpg",
+    description: "Glowing, natural beauty that enhances authentic features for this campaign.",
+    url: "#"
+  },
+  {
+    id: 41,
+    title: "Studio Portrait",
+    category: "campaign",
+    categories: ["Campaign", "Studio"],
+    image: "/assets/portfolio/campaign/campaign19.jpg",
+    description: "Professional studio makeup with flawless finish for this portrait campaign.",
+    url: "#"
+  },
+  {
+    id: 42,
+    title: "Editorial Expression",
+    category: "campaign",
+    categories: ["Campaign", "Artistic"],
+    image: "/assets/portfolio/campaign/campaign20.jpg",
+    description: "Creative, expressive makeup that tells a story for this editorial campaign.",
+    url: "#"
+  },
   
   // EVENTS Category
   {
