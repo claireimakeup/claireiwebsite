@@ -366,6 +366,15 @@ export const projects = [
     description: "Creative, expressive makeup that tells a story for this editorial campaign.",
     url: "#"
   },
+  {
+    id: 43,
+    title: "Supré Lifestyle",
+    category: "campaign",
+    categories: ["Campaign", "Fashion"],
+    image: "/assets/portfolio/campaign/campaign21.jpg",
+    description: "Fresh, contemporary beauty for this vibrant lifestyle fashion campaign.",
+    url: "#"
+  },
   
   // EVENTS Category
   {
