@@ -109,7 +109,7 @@ const Contact = () => {
               Contact <span className="text-accent">Me</span>
             </h2>
             
-            <p className="text-secondary mb-8 font-times text-lg leading-relaxed">
+            <p className="text-secondary mb-8 font-bodoni text-lg leading-relaxed tracking-wide">
               Have questions about my makeup services? Fill out the form and I'll get back to you within 24 hours. Looking forward to discussing how I can help with your makeup needs!
             </p>
             
@@ -173,7 +173,7 @@ const Contact = () => {
           
           <div className="md:w-1/2">
             <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-              <h3 className="text-2xl font-bold mb-8 font-times text-center">Get In Touch</h3>
+              <h3 className="text-2xl font-light mb-8 font-bodoni text-center tracking-wide">Get In Touch</h3>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
                 <div className="space-y-2">
