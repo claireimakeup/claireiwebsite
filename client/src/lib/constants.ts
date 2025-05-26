@@ -2,6 +2,15 @@
 export const projects = [
   // BEAUTY Category
   {
+    id: 29,
+    title: "Natural Glow",
+    category: "beauty",
+    categories: ["Beauty", "Natural"],
+    image: "/assets/portfolio/beauty/beauty12.jpg",
+    description: "Radiant, natural beauty with a focus on healthy, glowing skin and subtle enhancement.",
+    url: "#"
+  },
+  {
     id: 1,
     title: "Minimal Elegance",
     category: "beauty",
@@ -98,15 +107,6 @@ export const projects = [
     categories: ["Beauty", "Editorial"],
     image: "/assets/portfolio/beauty/beauty11.jpg",
     description: "Clean, sophisticated beauty look with precise details for this fashion editorial.",
-    url: "#"
-  },
-  {
-    id: 28,
-    title: "Natural Glow",
-    category: "beauty",
-    categories: ["Beauty", "Natural"],
-    image: "/assets/portfolio/beauty/beauty12.jpg",
-    description: "Radiant, natural beauty with a focus on healthy, glowing skin and subtle enhancement.",
     url: "#"
   },
 
