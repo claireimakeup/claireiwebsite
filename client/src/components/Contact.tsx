@@ -109,7 +109,7 @@ const Contact = () => {
               Contact <span className="text-accent">Me</span>
             </h2>
             
-            <p className="text-secondary mb-8">
+            <p className="text-secondary mb-8 font-times text-lg leading-relaxed">
               Have questions about my makeup services? Fill out the form and I'll get back to you within 24 hours. Looking forward to discussing how I can help with your makeup needs!
             </p>
             
