@@ -769,8 +769,8 @@ export const expertise = [
 // Contact information
 export const contactInfo = {
   email: "claireimbrognomakeup@gmail.com",
-  phone: "+61 4XX XXX XXX",
-  location: "Melbourne, Australia"
+  phone: "0420 503 314",
+  location: "Point Cook, Melbourne"
 };
 
 // Client Testimonials and Stories
