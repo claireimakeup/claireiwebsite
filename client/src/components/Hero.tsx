@@ -2,12 +2,12 @@ import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
 const Hero = () => {
-  // Using only fashion/editorial images (no bridal)
+  // Using varied portfolio images showcasing different styles
   const heroImages = [
-    { id: 1, src: "/assets/hero/hero-image1.jpg" },
-    { id: 2, src: "/assets/hero/hero-image2.jpg" },
-    { id: 3, src: "/assets/hero/hero-image3.jpg" },
-    { id: 4, src: "/assets/hero/hero-image4.jpg" }
+    { id: 1, src: "/assets/portfolio/beauty/beauty12.jpg" },
+    { id: 2, src: "/assets/portfolio/campaign/campaign11.jpg" },
+    { id: 3, src: "/assets/portfolio/beauty/beauty15.jpg" },
+    { id: 4, src: "/assets/portfolio/ecommerce/ecommerce8.jpg" }
   ];
   
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
