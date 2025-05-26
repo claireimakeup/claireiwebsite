@@ -109,6 +109,42 @@ export const projects = [
     description: "Clean, sophisticated beauty look with precise details for this fashion editorial.",
     url: "#"
   },
+  {
+    id: 46,
+    title: "Luminous Beauty",
+    category: "beauty",
+    categories: ["Beauty", "Natural"],
+    image: "/assets/portfolio/beauty/beauty13.jpg",
+    description: "Radiant, glowing skin with subtle enhancement for natural beauty perfection.",
+    url: "#"
+  },
+  {
+    id: 47,
+    title: "Contemporary Grace",
+    category: "beauty",
+    categories: ["Beauty", "Modern"],
+    image: "/assets/portfolio/beauty/beauty14.jpg",
+    description: "Modern beauty approach with clean lines and sophisticated definition.",
+    url: "#"
+  },
+  {
+    id: 48,
+    title: "Golden Hour Glow",
+    category: "beauty",
+    categories: ["Beauty", "Editorial"],
+    image: "/assets/portfolio/beauty/beauty15.jpg",
+    description: "Warm, golden makeup with luminous finish capturing perfect lighting.",
+    url: "#"
+  },
+  {
+    id: 49,
+    title: "Effortless Elegance",
+    category: "beauty",
+    categories: ["Beauty", "Natural"],
+    image: "/assets/portfolio/beauty/beauty16.jpg",
+    description: "Understated beauty with flawless skin and natural enhancement.",
+    url: "#"
+  },
 
   
   // E-COMMERCE Category
