@@ -145,6 +145,24 @@ export const projects = [
     description: "Understated beauty with flawless skin and natural enhancement.",
     url: "#"
   },
+  {
+    id: 50,
+    title: "Jewellery Editorial",
+    category: "beauty",
+    categories: ["Beauty", "Editorial"],
+    image: "/assets/portfolio/beauty/beauty17.jpg",
+    description: "Sophisticated beauty look created to complement fine jewellery in this studio editorial.",
+    url: "#"
+  },
+  {
+    id: 51,
+    title: "Studio Glamour",
+    category: "beauty",
+    categories: ["Beauty", "Studio"],
+    image: "/assets/portfolio/beauty/beauty18.jpg",
+    description: "Polished studio beauty with refined features for this luxury jewellery shoot.",
+    url: "#"
+  },
 
   
   // E-COMMERCE Category
