@@ -100,6 +100,15 @@ export const projects = [
     description: "Clean, sophisticated beauty look with precise details for this fashion editorial.",
     url: "#"
   },
+  {
+    id: 28,
+    title: "Natural Glow",
+    category: "beauty",
+    categories: ["Beauty", "Natural"],
+    image: "/assets/portfolio/beauty/beauty12.jpg",
+    description: "Radiant, natural beauty with a focus on healthy, glowing skin and subtle enhancement.",
+    url: "#"
+  },
 
   
   // E-COMMERCE Category
