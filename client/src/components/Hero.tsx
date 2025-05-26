@@ -6,8 +6,8 @@ const Hero = () => {
   const heroImages = [
     { id: 1, src: "/assets/portfolio/beauty/beauty12.jpg" },
     { id: 2, src: "/assets/portfolio/campaign/campaign11.jpg" },
-    { id: 3, src: "/assets/portfolio/beauty/beauty15.jpg" },
-    { id: 4, src: "/assets/portfolio/ecommerce/ecommerce8.jpg" }
+    { id: 3, src: "/assets/portfolio/beauty/beauty17.jpg" },
+    { id: 4, src: "/assets/portfolio/campaign/campaign13.jpg" }
   ];
   
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
