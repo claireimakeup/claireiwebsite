@@ -728,7 +728,7 @@ export const navLinks = [
 
 // Social links
 export const socialLinks = [
-  { name: "Instagram", href: "https://instagram.com/claire_imakeup/", icon: "instagram" },
+  { name: "Instagram", href: "https://www.instagram.com/claire_imakeup?igsh=MWp5NWE2bDgzNGU3bg%3D%3D&utm_source=qr", icon: "instagram" },
   { name: "TikTok", href: "https://www.tiktok.com/@claire_imakeup?_t=ZS-8wfr7t7Q4ri&_r=1", icon: "tiktok" },
   { name: "Facebook", href: "https://www.facebook.com/share/16oGmDnoqs/?mibextid=wwXIfr", icon: "facebook" }
 ];
