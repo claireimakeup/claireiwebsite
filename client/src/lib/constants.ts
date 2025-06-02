@@ -776,11 +776,11 @@ export const contactInfo = {
 export const testimonials = [
   {
     id: 1,
-    name: "Sarah Williams",
-    event: "Bridal Client, March 2025",
-    image: "/assets/portfolio/bridal/bridal1.jpg",
-    quote: "Claire has a unique talent for understanding exactly what look will complement your features and the occasion. She made me feel like the most beautiful version of myself.",
-    story: "Working with Claire for my wedding was a highlight of my bridal preparations. She took the time to understand not just my desired look, but the entire aesthetic of the wedding. The makeup lasted beautifully through tears, dancing, and countless photos!"
+    name: "Mirea Martin",
+    event: "Photographer - 4 Year Collaboration",
+    image: "/assets/portfolio/campaign/campaign1.jpg",
+    quote: "I have been working with Claire for over 4 years now and she is one of my go to HMUA. She is talented and professional with a calm, friendly energy that truly makes every shoot a breeze and her work is consistently stunning—whether it's a natural glow or full glam. Would 100% recommend.",
+    story: "As a photographer, finding the right makeup artist is crucial for successful shoots. Claire's professionalism and consistent quality over our 4-year working relationship has made her indispensable to my team. Her ability to deliver both natural and glamorous looks with equal skill sets her apart in the industry."
   },
   {
     id: 2,
