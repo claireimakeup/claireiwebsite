@@ -781,5 +781,13 @@ export const testimonials = [
     image: "/assets/portfolio/campaign/campaign1.jpg",
     quote: "I have been working with Claire for over 4 years now and she is one of my go to HMUA. She is talented and professional with a calm, friendly energy that truly makes every shoot a breeze and her work is consistently stunning—whether it's a natural glow or full glam. Would 100% recommend.",
     story: "As a photographer, finding the right makeup artist is crucial for successful shoots. Claire's professionalism and consistent quality over our 4-year working relationship has made her indispensable to my team. Her ability to deliver both natural and glamorous looks with equal skill sets her apart in the industry."
+  },
+  {
+    id: 2,
+    name: "Kirby Cuomo",
+    event: "Bridal Client",
+    image: "/assets/portfolio/beauty/beauty1.jpg",
+    quote: "Claire was very professional and listened to exactly what I wanted. She was great with her time management and made me feel comfortable and special on the day.",
+    story: "Working with Claire for my wedding was such a wonderful experience. She took the time to understand my vision and created exactly the look I had dreamed of. Her professionalism and attention to detail made the entire getting-ready process stress-free, and I felt absolutely beautiful walking down the aisle."
   }
 ];
