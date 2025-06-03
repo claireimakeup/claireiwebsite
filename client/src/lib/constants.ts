@@ -781,21 +781,5 @@ export const testimonials = [
     image: "/assets/portfolio/campaign/campaign1.jpg",
     quote: "I have been working with Claire for over 4 years now and she is one of my go to HMUA. She is talented and professional with a calm, friendly energy that truly makes every shoot a breeze and her work is consistently stunning—whether it's a natural glow or full glam. Would 100% recommend.",
     story: "As a photographer, finding the right makeup artist is crucial for successful shoots. Claire's professionalism and consistent quality over our 4-year working relationship has made her indispensable to my team. Her ability to deliver both natural and glamorous looks with equal skill sets her apart in the industry."
-  },
-  {
-    id: 2,
-    name: "Emma Johnson",
-    event: "Fashion Week Campaign",
-    image: "/assets/portfolio/campaign/campaign1.jpg",
-    quote: "As a model, I've worked with many makeup artists, but Claire's attention to detail and ability to create flawless skin is truly exceptional.",
-    story: "During our winter collection photoshoot, Claire created a look that perfectly balanced the cozy, warm aesthetic of the collection while ensuring my features would photograph beautifully in the natural lighting. Her technical skill with highlighting and contouring elevated the entire campaign."
-  },
-  {
-    id: 3,
-    name: "Jessica Chen",
-    event: "Red Carpet Event",
-    image: "/assets/portfolio/events/event1.png",
-    quote: "Claire understands how to create makeup that looks stunning both in person and on camera. Her work gave me so much confidence walking the red carpet.",
-    story: "For my first major awards ceremony, I was incredibly nervous. Claire not only created a look that perfectly complemented my dress and the formal setting, but she also made the getting-ready experience calming and enjoyable. The makeup photographed beautifully and lasted throughout the entire evening."
   }
 ];
