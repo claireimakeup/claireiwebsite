@@ -467,24 +467,7 @@ export const projects = [
     description: "Sophisticated, classic makeup for this black and white formal gown event.",
     url: "#"
   },
-  {
-    id: 18,
-    title: "Special Events",
-    category: "fashion",
-    categories: ["Events", "Special Occasion"],
-    image: "/assets/portfolio/image2.jpeg",
-    description: "Glamorous makeup for galas, premieres, and special occasions.",
-    url: "#"
-  },
-  {
-    id: 19,
-    title: "Red Carpet",
-    category: "fashion",
-    categories: ["Events", "Red Carpet"],
-    image: "/assets/portfolio-image3.jpeg",
-    description: "Sophisticated looks for award nights and high-profile events.",
-    url: "#"
-  },
+
   
   // BRIDAL Category
   {
