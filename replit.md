@@ -100,6 +100,12 @@ This is a professional makeup artist portfolio website for Claire Imbrogno, buil
 ## Changelog
 ```
 Changelog:
+- January 7, 2025. Website prepared for Netlify deployment with custom domain cimakeup.com.au
+- January 7, 2025. Contact form configured for Netlify Forms with email notifications
+- January 7, 2025. All social media links verified and pointing to current accounts (@claire_imakeup)
+- January 7, 2025. SEO optimized with authentic domain and social media references
+- January 7, 2025. Added authentic client testimonials from Mirea Martin and Kirby Cuomo
+- January 7, 2025. Streamlined portfolio events section and blog posts as requested
 - June 24, 2025. Initial setup
 ```
 
