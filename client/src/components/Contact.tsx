@@ -88,19 +88,32 @@ const Contact = () => {
     setIsSubmitting(true);
     
     try {
-      await apiRequest("POST", "/api/contact", formData);
-      toast({
-        title: "Success!",
-        description: "Your message has been sent. I'll get back to you soon.",
+      // For Netlify Forms, we'll submit directly to the form endpoint
+      const form = e.target as HTMLFormElement;
+      const formDataToSend = new FormData(form);
+      
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formDataToSend as any).toString()
       });
       
-      // Reset form
-      setFormData({
-        name: "",
-        email: "",
-        subject: "",
-        message: ""
-      });
+      if (response.ok) {
+        toast({
+          title: "Success!",
+          description: "Your message has been sent. I'll get back to you soon.",
+        });
+        
+        // Reset form
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: ""
+        });
+      } else {
+        throw new Error('Form submission failed');
+      }
     } catch (error) {
       toast({
         title: "Error",
@@ -184,7 +197,15 @@ const Contact = () => {
           </div>
           
           <div className="md:w-1/2">
-            <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+            <form 
+              onSubmit={handleSubmit} 
+              className="bg-white p-8 rounded-xl shadow-lg border border-gray-100"
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
+              <input type="hidden" name="form-name" value="contact" />
               <h3 className="text-2xl font-bold mb-8 font-serif text-center">Get In Touch</h3>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
@@ -192,6 +213,7 @@ const Contact = () => {
                   <Label htmlFor="name" className="text-sm font-medium text-gray-700">Full Name</Label>
                   <Input 
                     id="name" 
+                    name="name"
                     value={formData.name}
                     onChange={handleChange}
                     placeholder="Jane Smith" 
@@ -204,6 +226,7 @@ const Contact = () => {
                   <Label htmlFor="email" className="text-sm font-medium text-gray-700">Email Address</Label>
                   <Input 
                     id="email" 
+                    name="email"
                     type="email" 
                     value={formData.email}
                     onChange={handleChange}
@@ -218,6 +241,7 @@ const Contact = () => {
                 <Label htmlFor="subject" className="text-sm font-medium text-gray-700">Subject</Label>
                 <Input 
                   id="subject" 
+                  name="subject"
                   value={formData.subject}
                   onChange={handleChange}
                   placeholder="Service Inquiry" 
@@ -230,6 +254,7 @@ const Contact = () => {
                 <Label htmlFor="message" className="text-sm font-medium text-gray-700">Your Message</Label>
                 <Textarea 
                   id="message" 
+                  name="message"
                   value={formData.message}
                   onChange={handleChange}
                   rows={5} 

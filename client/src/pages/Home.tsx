@@ -19,14 +19,14 @@ const Home = () => {
         <meta property="og:title" content="Claire Imbrogno | Professional Makeup Artist Melbourne" />
         <meta property="og:description" content="Professional makeup artist in Melbourne specializing in bridal, editorial, and special occasion makeup by Claire Imbrogno." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.cimakeup.com.au" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630" />
+        <meta property="og:url" content="https://cimakeup.com.au" />
+        <meta property="og:image" content="https://cimakeup.com.au/assets/portfolio/beauty/beauty1.jpg" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Claire Imbrogno | Professional Makeup Artist Melbourne" />
         <meta name="twitter:description" content="Professional makeup artist in Melbourne specializing in bridal, editorial, and special occasion makeup." />
-        <meta name="twitter:image" content="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630" />
+        <meta name="twitter:image" content="https://cimakeup.com.au/assets/portfolio/beauty/beauty1.jpg" />
         
         {/* Structured data (JSON-LD) for SEO */}
         <script type="application/ld+json">
@@ -35,7 +35,7 @@ const Home = () => {
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "Claire Imbrogno",
-              "url": "https://www.cimakeup.com.au",
+              "url": "https://cimakeup.com.au",
               "image": "/assets/claire-portrait.jpeg",
               "jobTitle": "Professional Makeup Artist",
               "worksFor": {
@@ -49,10 +49,9 @@ const Home = () => {
                 "addressCountry": "Australia"
               },
               "sameAs": [
-                "https://instagram.com/cimakeup.au",
-                "https://facebook.com/cimakeup",
-                "https://pinterest.com/cimakeup",
-                "https://tiktok.com/@cimakeup"
+                "https://instagram.com/claire_imakeup",
+                "https://facebook.com/cimakeupmelbourne",
+                "https://tiktok.com/@clairemakeup"
               ]
             }
           `}
