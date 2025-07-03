@@ -50,8 +50,8 @@ const Home = () => {
               },
               "sameAs": [
                 "https://instagram.com/claire_imakeup",
-                "https://facebook.com/cimakeupmelbourne",
-                "https://tiktok.com/@clairemakeup"
+                "https://www.facebook.com/share/16oGmDnoqs/?mibextid=wwXIfr",
+                "https://www.tiktok.com/@claire_imakeup"
               ]
             }
           `}
