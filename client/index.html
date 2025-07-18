@@ -1,32 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>Claire Imbrogno | Hair and Makeup Artist Melbourne</title>
-    <meta name="description" content="Professional hair and makeup artist in Melbourne specializing in bridal, editorial, and commercial beauty. Book your transformation with Claire Imbrogno today." />
-    <meta name="keywords" content="makeup artist, hair stylist, Melbourne, bridal makeup, professional makeup, Claire Imbrogno, beauty" />
-    <meta name="author" content="Claire Imbrogno" />
-    
-    <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:title" content="Claire Imbrogno | Hair and Makeup Artist Melbourne" />
-    <meta property="og:description" content="Professional hair and makeup artist in Melbourne specializing in bridal, editorial, and commercial beauty by Claire Imbrogno." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.cimakeup.com.au" />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630" />
-    
-    <!-- Favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💄</text></svg>" />
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Italiana&family=Cinzel:wght@400;500;600&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gilda+Display&family=Nanum+Myeongjo:wght@400;700;800&family=Libre+Caslon+Display&family=Yeseva+One&family=Marcellus&family=Rufina:wght@400;700&family=Cormorant:wght@300;400;500;600;700&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400;1,6..96,500;1,6..96,600&family=Antic+Didone&family=Alex+Brush&family=Allura&family=Tangerine:wght@400;700&family=Great+Vibes&family=Pinyon+Script&family=Petit+Formal+Script&family=Parisienne&family=Meddon&family=Dancing+Script:wght@400;500;600;700&family=Montserrat+Alternates:wght@300;400;500&family=Cardo:ital,wght@0,400;0,700;1,400&family=Cormorant+SC:wght@300;400;500;600;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400;1,700&family=Didot&family=Elsie:wght@400;900&family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&family=Tenor+Sans&family=Julius+Sans+One&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poiret+One&family=Red+Hat+Display:wght@300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Prata&family=DM+Serif+Display:ital@0;1&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
-    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claire Imbrogno - Professional Makeup Artist</title>
+    <meta name="description" content="Professional makeup artist in Melbourne specializing in beauty, editorial, campaign, and bridal makeup. Creating stunning looks for photoshoots, weddings, and special events.">
+    <style>
+        body { font-family: 'Tenor Sans', Georgia, serif; margin: 0; padding: 0; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .hero { text-align: center; margin-bottom: 50px; }
+        .hero h1 { font-size: 3rem; margin-bottom: 10px; letter-spacing: 3px; }
+        .hero h2 { font-size: 1.5rem; color: #666; margin-bottom: 30px; }
+        .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 50px; }
+        .portfolio-item { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .portfolio-item img { width: 100%; height: 400px; object-fit: cover; }
+        .portfolio-item h3 { padding: 15px; margin: 0; font-size: 1.2rem; }
+        .about-section { display: grid; grid-template-columns: 1fr 2fr; gap: 30px; margin-bottom: 50px; }
+        .about-image img { width: 100%; border-radius: 10px; }
+        .testimonials { margin-bottom: 50px; }
+        .testimonial { background: #f9f9f9; padding: 30px; border-radius: 10px; margin-bottom: 20px; }
+        .contact { text-align: center; background: #333; color: white; padding: 50px; }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>CLAIRE IMBROGNO</h1>
+            <h2>Hair and Makeup Artist</h2>
+            <p>Elevating editorial beauty and luxury campaigns through artistry that transforms faces into living canvases.</p>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="about-image">
+                <img src="assets/portfolio/Claire-scaled.jpeg" alt="Claire Imbrogno - Professional Makeup Artist">
+            </div>
+            <div class="about-text">
+                <h2>About Claire</h2>
+                <p>Beginning with a love of painting and watercolors, Claire discovered her artistic vision could transform more than just paper. Her journey from delicate brushstrokes on canvas to creating stunning beauty looks for professional photoshoots reveals an artist who sees faces as her ultimate medium.</p>
+                <p>With over 15 years immersed in the beauty industry, Claire has refined her craft alongside some of Australia's most prestigious brands. Her journey includes two years as a makeup artist in London and time as a full-time colour specialist at the prestigious Space.NK makeup store.</p>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio">
+            <h2>My Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/IMG_7108.jpeg" alt="Natural Glow - Beauty Makeup">
+                    <h3>Natural Glow</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/IMG_7112.jpeg" alt="Minimal Elegance - Beauty Makeup">
+                    <h3>Minimal Elegance</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/240116_SUPRE_JGREEN_SH_04_658.jpeg" alt="Pearl Highlights - Editorial Makeup">
+                    <h3>Pearl Highlights</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/240116_SUPRE_JGREEN_SH_09_1237.jpeg" alt="Classic Red Lip - Editorial Makeup">
+                    <h3>Classic Red Lip</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/240215_SUPRE_JGREEN_01_095.jpeg" alt="Fresh Faced Glow - Natural Beauty">
+                    <h3>Fresh Faced Glow</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/240215_SUPRE_JGREEN_03_544.jpeg" alt="Commercial Beauty - Campaign Makeup">
+                    <h3>Commercial Beauty</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/240319_SUPRE_JGREEN_01_387.jpeg" alt="Modern Editorial - Beauty Makeup">
+                    <h3>Modern Editorial</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/240405_SUPRE_JGREEN_02_506.jpeg" alt="Natural Beauty Focus - Minimal Makeup">
+                    <h3>Natural Beauty Focus</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/240618_SUPRE_JGREEN_04_459.jpeg" alt="Glossy Editorial - Beauty Makeup">
+                    <h3>Glossy Editorial</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/240716_SUPRE_JGREEN_DIGI_14_2730.jpeg" alt="Glowing Complexion - Minimal Beauty">
+                    <h3>Glowing Complexion</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/240716_SUPRE_JGREEN_DIGI_17_3037.jpeg" alt="Commercial Beauty - Campaign Makeup">
+                    <h3>Commercial Beauty</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/250411_ROLLAS_SH_13_4036.jpeg" alt="Editorial Elegance - Fashion Makeup">
+                    <h3>Editorial Elegance</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/Facetune_01-05-2025-18-00-25.jpeg" alt="Contemporary Grace - Modern Beauty">
+                    <h3>Contemporary Grace</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/REH_STUDIO_010425_JEWELLERY_3171.jpeg" alt="Golden Hour Glow - Editorial Makeup">
+                    <h3>Golden Hour Glow</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/REH_STUDIO_010425_JEWELLERY_3233.jpeg" alt="Effortless Elegance - Natural Beauty">
+                    <h3>Effortless Elegance</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/TEST_1735.jpeg" alt="Jewellery Editorial - Beauty Makeup">
+                    <h3>Jewellery Editorial</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio/IMG_6010.jpeg" alt="Studio Glamour - Beauty Makeup">
+                    <h3>Studio Glamour</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <h2>Client Stories</h2>
+            <div class="testimonial">
+                <img src="assets/portfolio/240215_SUPRE_JGREEN_01_095.jpeg" alt="Mirea Martin Testimonial" class="hidden">
+                <h3>Mirea Martin - Photographer</h3>
+                <p>"I have been working with Claire for over 4 years now and she is one of my go to HMUA. She is talented and professional with a calm, friendly energy that truly makes every shoot a breeze and her work is consistently stunning—whether it's a natural glow or full glam. Would 100% recommend."</p>
+            </div>
+            <div class="testimonial">
+                <img src="assets/portfolio/240405_SUPRE_JGREEN_02_506.jpeg" alt="Kirby Cuomo Testimonial" class="hidden">
+                <h3>Kirby Cuomo - Bridal Client</h3>
+                <p>"Claire was very professional and listened to exactly what I wanted. She was great with her time management and made me feel comfortable and special on the day."</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2>Get In Touch</h2>
+            <p>Ready to create something beautiful together?</p>
+            <p>Email: claireimbrognomakeup@gmail.com</p>
+            <p>Phone: 0420 503 314</p>
+            <p>Location: Point Cook, Melbourne</p>
+            <p>
+                <a href="https://www.instagram.com/claire_imakeup" target="_blank" style="color: white; margin: 0 10px;">Instagram</a>
+                <a href="https://www.tiktok.com/@claire_imakeup" target="_blank" style="color: white; margin: 0 10px;">TikTok</a>
+                <a href="https://www.facebook.com/clairemakeup" target="_blank" style="color: white; margin: 0 10px;">Facebook</a>
+            </p>
+        </section>
+    </div>
+
+    <!-- Hidden images for preloading -->
+    <div class="hidden">
+        <img src="assets/portfolio/23_EPxSR_MAY_08-1915-scaled.jpeg" alt="preload">
+        <img src="assets/portfolio/231212_SUPRE_JGREEN_SH_01_064.jpeg" alt="preload">
+        <img src="assets/portfolio/231212_SUPRE_JGREEN_SH_03_223.jpeg" alt="preload">
+        <img src="assets/portfolio/231212_SUPRE_JGREEN_SH_12_1473.jpeg" alt="preload">
+        <img src="assets/portfolio/240117_SUPRE_JGREEN_SH_18_2880.jpeg" alt="preload">
+        <img src="assets/portfolio/8184540-10_830.jpeg" alt="preload">
+        <img src="assets/portfolio/93c45163-3436-4eaf-8ae7-60a95ed7ddb5.jpeg" alt="preload">
+        <img src="assets/portfolio/d7bfa2c9-75e2-49ed-b32a-34b4a208fabd.jpeg" alt="preload">
+        <img src="assets/portfolio/image_123986672.jpg" alt="preload">
+        <img src="assets/portfolio/image_6483441-2-scaled.jpg" alt="preload">
+        <img src="assets/portfolio/Image 19-7-2024 at 2.37 PM.jpeg" alt="preload">
+        <img src="assets/portfolio/Image 22-7-2024 at 2.52 PM.jpeg" alt="preload">
+        <img src="assets/portfolio/Image.jpeg" alt="preload">
+    </div>
+</body>
 </html>
